@@ -23,6 +23,17 @@
 		84728C2C1A6FF00000DECEB1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84728C2A1A6FF00000DECEB1 /* Images.xcassets */; };
 		84728C2D1A6FF00000DECEB1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84728C2B1A6FF00000DECEB1 /* LaunchScreen.xib */; };
 		84728C301A6FF02F00DECEB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84728C2F1A6FF02F00DECEB1 /* AppDelegate.m */; };
+		84728C351A6FF6E700DECEB1 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84728C331A6FF6E700DECEB1 /* LoginViewController.m */; };
+		84728C361A6FF6E700DECEB1 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84728C341A6FF6E700DECEB1 /* LoginViewController.xib */; };
+		84728C441A6FF83800DECEB1 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84728C371A6FF78800DECEB1 /* Accounts.framework */; };
+		84728C451A6FF83E00DECEB1 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84728C411A6FF7D800DECEB1 /* Social.framework */; };
+		84728C461A6FF84500DECEB1 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84728C3F1A6FF7CC00DECEB1 /* MediaPlayer.framework */; };
+		84728C471A6FF84B00DECEB1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84728C3D1A6FF7C000DECEB1 /* CoreGraphics.framework */; };
+		84728C481A6FF85100DECEB1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84728C3B1A6FF7B600DECEB1 /* UIKit.framework */; };
+		84728C491A6FF85600DECEB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84728C391A6FF7A800DECEB1 /* Foundation.framework */; };
+		84728C4E1A6FF8EF00DECEB1 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84728C4C1A6FF8EF00DECEB1 /* SignUpViewController.m */; };
+		84728C4F1A6FF8EF00DECEB1 /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84728C4D1A6FF8EF00DECEB1 /* SignUpViewController.xib */; };
+		84728C511A70060B00DECEB1 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 84728C501A70060B00DECEB1 /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +80,19 @@
 		84728C2B1A6FF00000DECEB1 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		84728C2E1A6FF02F00DECEB1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84728C2F1A6FF02F00DECEB1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84728C321A6FF6E700DECEB1 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		84728C331A6FF6E700DECEB1 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		84728C341A6FF6E700DECEB1 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		84728C371A6FF78800DECEB1 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		84728C391A6FF7A800DECEB1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84728C3B1A6FF7B600DECEB1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84728C3D1A6FF7C000DECEB1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84728C3F1A6FF7CC00DECEB1 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		84728C411A6FF7D800DECEB1 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		84728C4B1A6FF8EF00DECEB1 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		84728C4C1A6FF8EF00DECEB1 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		84728C4D1A6FF8EF00DECEB1 /* SignUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
+		84728C501A70060B00DECEB1 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +100,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84728C491A6FF85600DECEB1 /* Foundation.framework in Frameworks */,
+				84728C481A6FF85100DECEB1 /* UIKit.framework in Frameworks */,
+				84728C471A6FF84B00DECEB1 /* CoreGraphics.framework in Frameworks */,
+				84728C461A6FF84500DECEB1 /* MediaPlayer.framework in Frameworks */,
+				84728C451A6FF83E00DECEB1 /* Social.framework in Frameworks */,
+				84728C441A6FF83800DECEB1 /* Accounts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +124,7 @@
 			children = (
 				84728BBD1A6FEDFE00DECEB1 /* VietCourier */,
 				84728BD71A6FEDFE00DECEB1 /* VietCourierTests */,
+				84728C431A6FF7EC00DECEB1 /* Frameworks */,
 				84728BBC1A6FEDFE00DECEB1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -201,6 +232,7 @@
 		84728C281A6FEF6600DECEB1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				84728C521A70061900DECEB1 /* images */,
 				84728C2A1A6FF00000DECEB1 /* Images.xcassets */,
 				84728C2B1A6FF00000DECEB1 /* LaunchScreen.xib */,
 			);
@@ -210,10 +242,53 @@
 		84728C291A6FEFA000DECEB1 /* Viewcontrollers */ = {
 			isa = PBXGroup;
 			children = (
+				84728C311A6FF6E700DECEB1 /* Login */,
+				84728C4A1A6FF8EF00DECEB1 /* SignUp */,
 				84728C2E1A6FF02F00DECEB1 /* AppDelegate.h */,
 				84728C2F1A6FF02F00DECEB1 /* AppDelegate.m */,
 			);
 			path = Viewcontrollers;
+			sourceTree = "<group>";
+		};
+		84728C311A6FF6E700DECEB1 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				84728C321A6FF6E700DECEB1 /* LoginViewController.h */,
+				84728C331A6FF6E700DECEB1 /* LoginViewController.m */,
+				84728C341A6FF6E700DECEB1 /* LoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		84728C431A6FF7EC00DECEB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84728C411A6FF7D800DECEB1 /* Social.framework */,
+				84728C3F1A6FF7CC00DECEB1 /* MediaPlayer.framework */,
+				84728C3D1A6FF7C000DECEB1 /* CoreGraphics.framework */,
+				84728C3B1A6FF7B600DECEB1 /* UIKit.framework */,
+				84728C391A6FF7A800DECEB1 /* Foundation.framework */,
+				84728C371A6FF78800DECEB1 /* Accounts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84728C4A1A6FF8EF00DECEB1 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				84728C4B1A6FF8EF00DECEB1 /* SignUpViewController.h */,
+				84728C4C1A6FF8EF00DECEB1 /* SignUpViewController.m */,
+				84728C4D1A6FF8EF00DECEB1 /* SignUpViewController.xib */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		84728C521A70061900DECEB1 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				84728C501A70060B00DECEB1 /* logo.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,7 +372,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				84728C2D1A6FF00000DECEB1 /* LaunchScreen.xib in Resources */,
+				84728C511A70060B00DECEB1 /* logo.png in Resources */,
 				84728C2C1A6FF00000DECEB1 /* Images.xcassets in Resources */,
+				84728C4F1A6FF8EF00DECEB1 /* SignUpViewController.xib in Resources */,
+				84728C361A6FF6E700DECEB1 /* LoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,12 +397,14 @@
 				84728C191A6FEF0300DECEB1 /* AFPropertyListRequestOperation.m in Sources */,
 				84728C1A1A6FEF0300DECEB1 /* AFURLConnectionOperation.m in Sources */,
 				84728C1B1A6FEF0300DECEB1 /* AFXMLRequestOperation.m in Sources */,
+				84728C351A6FF6E700DECEB1 /* LoginViewController.m in Sources */,
 				84728C1D1A6FEF0300DECEB1 /* DefinitionAPI.m in Sources */,
 				84728C201A6FEF0300DECEB1 /* MBProgressHUD.m in Sources */,
 				84728C171A6FEF0300DECEB1 /* AFJSONRequestOperation.m in Sources */,
 				84728C301A6FF02F00DECEB1 /* AppDelegate.m in Sources */,
 				84728C1C1A6FEF0300DECEB1 /* UIImageView+AFNetworking.m in Sources */,
 				84728C181A6FEF0300DECEB1 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				84728C4E1A6FF8EF00DECEB1 /* SignUpViewController.m in Sources */,
 				84728C151A6FEF0300DECEB1 /* AFHTTPRequestOperation.m in Sources */,
 				84728BC11A6FEDFE00DECEB1 /* main.m in Sources */,
 				84728C141A6FEF0300DECEB1 /* AFHTTPClient.m in Sources */,
@@ -513,6 +593,7 @@
 				84728BE01A6FEDFE00DECEB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84728BE11A6FEDFE00DECEB1 /* Build configuration list for PBXNativeTarget "VietCourierTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +602,7 @@
 				84728BE31A6FEDFE00DECEB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
