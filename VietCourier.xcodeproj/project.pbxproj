@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		307C6BE51A78CB0C003F683E /* ASFLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 307C6BDC1A78CB0C003F683E /* ASFLabel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		307C6BE61A78CB0C003F683E /* ASFTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 307C6BDE1A78CB0C003F683E /* ASFTableView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		307C6BE71A78CB0C003F683E /* ASFTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 307C6BE01A78CB0C003F683E /* ASFTableViewCell.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		307C6BE81A78CB0C003F683E /* ASFTableViewPrivateGlobals.m in Sources */ = {isa = PBXBuildFile; fileRef = 307C6BE21A78CB0C003F683E /* ASFTableViewPrivateGlobals.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		307C6BE91A78CB0C003F683E /* ASFTableViewPublicGlobals.m in Sources */ = {isa = PBXBuildFile; fileRef = 307C6BE41A78CB0C003F683E /* ASFTableViewPublicGlobals.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		307C6BEF1A78CC15003F683E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 307C6BED1A78CC15003F683E /* ViewController.m */; };
+		307C6BF01A78CC15003F683E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 307C6BEE1A78CC15003F683E /* ViewController.xib */; };
 		84728BC11A6FEDFE00DECEB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84728BC01A6FEDFE00DECEB1 /* main.m */; };
 		84728BDB1A6FEDFE00DECEB1 /* VietCourierTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84728BDA1A6FEDFE00DECEB1 /* VietCourierTests.m */; };
 		84728C141A6FEF0300DECEB1 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 84728BE81A6FEF0300DECEB1 /* AFHTTPClient.m */; };
@@ -47,6 +54,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		307C6BDB1A78CB0C003F683E /* ASFLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASFLabel.h; sourceTree = "<group>"; };
+		307C6BDC1A78CB0C003F683E /* ASFLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASFLabel.m; sourceTree = "<group>"; };
+		307C6BDD1A78CB0C003F683E /* ASFTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASFTableView.h; sourceTree = "<group>"; };
+		307C6BDE1A78CB0C003F683E /* ASFTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASFTableView.m; sourceTree = "<group>"; };
+		307C6BDF1A78CB0C003F683E /* ASFTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASFTableViewCell.h; sourceTree = "<group>"; };
+		307C6BE01A78CB0C003F683E /* ASFTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASFTableViewCell.m; sourceTree = "<group>"; };
+		307C6BE11A78CB0C003F683E /* ASFTableViewPrivateGlobals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASFTableViewPrivateGlobals.h; sourceTree = "<group>"; };
+		307C6BE21A78CB0C003F683E /* ASFTableViewPrivateGlobals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASFTableViewPrivateGlobals.m; sourceTree = "<group>"; };
+		307C6BE31A78CB0C003F683E /* ASFTableViewPublicGlobals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASFTableViewPublicGlobals.h; sourceTree = "<group>"; };
+		307C6BE41A78CB0C003F683E /* ASFTableViewPublicGlobals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASFTableViewPublicGlobals.m; sourceTree = "<group>"; };
+		307C6BEC1A78CC15003F683E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		307C6BED1A78CC15003F683E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		307C6BEE1A78CC15003F683E /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		84728BBB1A6FEDFE00DECEB1 /* VietCourier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VietCourier.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84728BBF1A6FEDFE00DECEB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84728BC01A6FEDFE00DECEB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -119,6 +139,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		307C6BDA1A78CB0C003F683E /* ASFTableView */ = {
+			isa = PBXGroup;
+			children = (
+				307C6BDB1A78CB0C003F683E /* ASFLabel.h */,
+				307C6BDC1A78CB0C003F683E /* ASFLabel.m */,
+				307C6BDD1A78CB0C003F683E /* ASFTableView.h */,
+				307C6BDE1A78CB0C003F683E /* ASFTableView.m */,
+				307C6BDF1A78CB0C003F683E /* ASFTableViewCell.h */,
+				307C6BE01A78CB0C003F683E /* ASFTableViewCell.m */,
+				307C6BE11A78CB0C003F683E /* ASFTableViewPrivateGlobals.h */,
+				307C6BE21A78CB0C003F683E /* ASFTableViewPrivateGlobals.m */,
+				307C6BE31A78CB0C003F683E /* ASFTableViewPublicGlobals.h */,
+				307C6BE41A78CB0C003F683E /* ASFTableViewPublicGlobals.m */,
+			);
+			path = ASFTableView;
+			sourceTree = "<group>";
+		};
+		307C6BEB1A78CBEB003F683E /* Balance */ = {
+			isa = PBXGroup;
+			children = (
+				307C6BEC1A78CC15003F683E /* ViewController.h */,
+				307C6BED1A78CC15003F683E /* ViewController.m */,
+				307C6BEE1A78CC15003F683E /* ViewController.xib */,
+			);
+			path = Balance;
+			sourceTree = "<group>";
+		};
 		84728BB21A6FEDFE00DECEB1 = {
 			isa = PBXGroup;
 			children = (
@@ -186,6 +233,7 @@
 		84728BE51A6FEF0300DECEB1 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				307C6BDA1A78CB0C003F683E /* ASFTableView */,
 				84728BFA1A6FEF0300DECEB1 /* DefinitionAPI.h */,
 				84728BFB1A6FEF0300DECEB1 /* DefinitionAPI.m */,
 				84728BE61A6FEF0300DECEB1 /* AFNetworking */,
@@ -242,6 +290,7 @@
 		84728C291A6FEFA000DECEB1 /* Viewcontrollers */ = {
 			isa = PBXGroup;
 			children = (
+				307C6BEB1A78CBEB003F683E /* Balance */,
 				84728C311A6FF6E700DECEB1 /* Login */,
 				84728C4A1A6FF8EF00DECEB1 /* SignUp */,
 				84728C2E1A6FF02F00DECEB1 /* AppDelegate.h */,
@@ -375,6 +424,7 @@
 				84728C511A70060B00DECEB1 /* logo.png in Resources */,
 				84728C2C1A6FF00000DECEB1 /* Images.xcassets in Resources */,
 				84728C4F1A6FF8EF00DECEB1 /* SignUpViewController.xib in Resources */,
+				307C6BF01A78CC15003F683E /* ViewController.xib in Resources */,
 				84728C361A6FF6E700DECEB1 /* LoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -393,14 +443,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				307C6BEF1A78CC15003F683E /* ViewController.m in Sources */,
 				84728C161A6FEF0300DECEB1 /* AFImageRequestOperation.m in Sources */,
 				84728C191A6FEF0300DECEB1 /* AFPropertyListRequestOperation.m in Sources */,
 				84728C1A1A6FEF0300DECEB1 /* AFURLConnectionOperation.m in Sources */,
 				84728C1B1A6FEF0300DECEB1 /* AFXMLRequestOperation.m in Sources */,
 				84728C351A6FF6E700DECEB1 /* LoginViewController.m in Sources */,
 				84728C1D1A6FEF0300DECEB1 /* DefinitionAPI.m in Sources */,
+				307C6BE71A78CB0C003F683E /* ASFTableViewCell.m in Sources */,
 				84728C201A6FEF0300DECEB1 /* MBProgressHUD.m in Sources */,
+				307C6BE81A78CB0C003F683E /* ASFTableViewPrivateGlobals.m in Sources */,
 				84728C171A6FEF0300DECEB1 /* AFJSONRequestOperation.m in Sources */,
+				307C6BE91A78CB0C003F683E /* ASFTableViewPublicGlobals.m in Sources */,
+				307C6BE61A78CB0C003F683E /* ASFTableView.m in Sources */,
 				84728C301A6FF02F00DECEB1 /* AppDelegate.m in Sources */,
 				84728C1C1A6FEF0300DECEB1 /* UIImageView+AFNetworking.m in Sources */,
 				84728C181A6FEF0300DECEB1 /* AFNetworkActivityIndicatorManager.m in Sources */,
@@ -408,6 +463,7 @@
 				84728C151A6FEF0300DECEB1 /* AFHTTPRequestOperation.m in Sources */,
 				84728BC11A6FEDFE00DECEB1 /* main.m in Sources */,
 				84728C141A6FEF0300DECEB1 /* AFHTTPClient.m in Sources */,
+				307C6BE51A78CB0C003F683E /* ASFLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
