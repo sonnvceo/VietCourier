@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "LoginViewController.h"
-#import "Menu.h"
+
 @interface AppDelegate ()
 
 @end
@@ -21,11 +21,17 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     LoginViewController *loginViewController = [[LoginViewController alloc] initWithNibName:@"LoginViewController"
                                                 bundle:nil];
-    Menu *menu = [[Menu alloc] initWithStyle:UITableViewStylePlain];
+    menu = [[Menu alloc] initWithStyle:UITableViewStylePlain];
     UINavigationController *contentNavigationController = [[UINavigationController alloc]
-                                                           initWithRootViewController:menu];
+                                                           initWithRootViewController:loginViewController];
     contentNavigationController.navigationBar.hidden = NO;
-    self.window.rootViewController = contentNavigationController;
+    //
+    stackViewController = [[MTStackViewController alloc] initWithNibName:nil bundle:nil];
+    [stackViewController setAnimationDurationProportionalToPosition:YES];
+    [stackViewController setLeftViewController:menu];
+    [stackViewController setContentViewController:contentNavigationController];
+    //
+    self.window.rootViewController = stackViewController;
     
     [self.window makeKeyAndVisible];
     return YES;

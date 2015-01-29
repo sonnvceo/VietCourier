@@ -114,7 +114,7 @@
     for (int i=0; i<[aWeights count] && i<[aArr count]; i++) {
         [newArr addObject:@{kASF_CELL_TITLE : [aArr objectAtIndex:i], kASF_CELL_WEIGHT : [aWeights objectAtIndex:i]}];
     }
-    [hView setMinHeight:aHeight];
+    [hView setMinHeight:(int)aHeight];
     [hView setColumns:newArr Options:aOptions IsInnerRow:false];
     [newArr release];
     

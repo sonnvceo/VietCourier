@@ -22,7 +22,7 @@
 @implementation ASFLabel
 
 - (void)setPadding:(NSInteger)aPadding {
-    padding = aPadding;
+    padding = (int)aPadding;
     [self setNeedsDisplay];
 }
 

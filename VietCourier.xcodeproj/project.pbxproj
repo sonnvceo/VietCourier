@@ -101,6 +101,7 @@
 		84728C4E1A6FF8EF00DECEB1 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84728C4C1A6FF8EF00DECEB1 /* SignUpViewController.m */; };
 		84728C4F1A6FF8EF00DECEB1 /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84728C4D1A6FF8EF00DECEB1 /* SignUpViewController.xib */; };
 		84728C511A70060B00DECEB1 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 84728C501A70060B00DECEB1 /* logo.png */; };
+		84A9B6491A7A7FD300AB37D3 /* MTStackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A9B6481A7A7FD300AB37D3 /* MTStackViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -278,6 +279,8 @@
 		84728C4C1A6FF8EF00DECEB1 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
 		84728C4D1A6FF8EF00DECEB1 /* SignUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
 		84728C501A70060B00DECEB1 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../logo.png; sourceTree = "<group>"; };
+		84A9B6471A7A7FD300AB37D3 /* MTStackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTStackViewController.h; sourceTree = "<group>"; };
+		84A9B6481A7A7FD300AB37D3 /* MTStackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTStackViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -562,6 +565,7 @@
 		84728BE51A6FEF0300DECEB1 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				84A9B6461A7A7FD300AB37D3 /* MTStackViewController */,
 				301BF9B81A7A50C40086FA83 /* Libraries */,
 				307C6BDA1A78CB0C003F683E /* ASFTableView */,
 				84728BFA1A6FEF0300DECEB1 /* DefinitionAPI.h */,
@@ -674,6 +678,15 @@
 				84728C501A70060B00DECEB1 /* logo.png */,
 			);
 			path = images;
+			sourceTree = "<group>";
+		};
+		84A9B6461A7A7FD300AB37D3 /* MTStackViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84A9B6471A7A7FD300AB37D3 /* MTStackViewController.h */,
+				84A9B6481A7A7FD300AB37D3 /* MTStackViewController.m */,
+			);
+			path = MTStackViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -849,6 +862,7 @@
 				301BFA1A1A7A50C40086FA83 /* MWPhoto.m in Sources */,
 				301BFA311A7A50C40086FA83 /* SDWebImageDownloaderOperation.m in Sources */,
 				301BFA161A7A50C40086FA83 /* MWTapDetectingView.m in Sources */,
+				84A9B6491A7A7FD300AB37D3 /* MTStackViewController.m in Sources */,
 				301BFA3A1A7A50C40086FA83 /* UIView+WebCacheOperation.m in Sources */,
 				301BFA1C1A7A50C40086FA83 /* NSIndexPath+PSTCollectionViewAdditions.m in Sources */,
 				84728BC11A6FEDFE00DECEB1 /* main.m in Sources */,

@@ -7,8 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MTStackViewController.h"
+#import "Menu.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate> {
+    MTStackViewController *stackViewController;
+    Menu *menu;
+}
 
 @property (strong, nonatomic) UIWindow *window;
 

@@ -37,6 +37,7 @@
     [super viewWillAppear:animated];
 }
 -(void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
     self.lableLogo.center = CGPointMake(self.view.center.x, 150);
     self.imgViewLogo.center = CGPointMake(self.view.center.x, 80);
 }
