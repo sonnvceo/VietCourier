@@ -8,7 +8,8 @@
 
 #import "AppDelegate.h"
 #import "LoginViewController.h"
-
+#import "CreateShipmentViewController.h"
+#import "DefinitionAPI.h"
 @interface AppDelegate ()
 
 @end
@@ -18,12 +19,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [GMSServices provideAPIKey:kGoogleAPIKey];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    CreateShipmentViewController *createShipmentViewController = [[CreateShipmentViewController alloc] initWithNibName:@"CreateShipmentViewController" bundle:nil];
+    
     LoginViewController *loginViewController = [[LoginViewController alloc] initWithNibName:@"LoginViewController"
                                                 bundle:nil];
     menu = [[Menu alloc] initWithStyle:UITableViewStylePlain];
     UINavigationController *contentNavigationController = [[UINavigationController alloc]
-                                                           initWithRootViewController:loginViewController];
+                                                           initWithRootViewController:createShipmentViewController];
     contentNavigationController.navigationBar.hidden = NO;
     //
     stackViewController = [[MTStackViewController alloc] initWithNibName:nil bundle:nil];

@@ -47,6 +47,8 @@
 #define URL_PHOTO_GALLERY @"http://www.clubbersapptoibiza.com/api/sa_photos_gallery"
  */
 
+#define kGoogleAPIKey @"AIzaSyD7K9Zp7X9EMQzL0SRFyjCa1hq1eqAiWDo"
+
 #define OFFICIAL_SERVER @"http://www.clubbersapptoibiza.com/api/"
 #define RSS_SERVER @"http://www.clubbersapptoibiza.com/app/"
 #define WEATHER_API_SERVER @"http://api.openweathermap.org/data/2.5/weather?lat=38.9088888889&lon=1.4327777778"
