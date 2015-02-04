@@ -129,6 +129,10 @@
 		84728C491A6FF85600DECEB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84728C391A6FF7A800DECEB1 /* Foundation.framework */; };
 		84728C4E1A6FF8EF00DECEB1 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84728C4C1A6FF8EF00DECEB1 /* SignUpViewController.m */; };
 		84728C4F1A6FF8EF00DECEB1 /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84728C4D1A6FF8EF00DECEB1 /* SignUpViewController.xib */; };
+		84A594581A825C1D00ED5AC3 /* LadingTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A594531A825C1D00ED5AC3 /* LadingTableCell.m */; };
+		84A594591A825C1D00ED5AC3 /* LadingTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A594541A825C1D00ED5AC3 /* LadingTableCell.xib */; };
+		84A5945A1A825C1D00ED5AC3 /* LadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A594561A825C1D00ED5AC3 /* LadingViewController.m */; };
+		84A5945B1A825C1D00ED5AC3 /* LadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A594571A825C1D00ED5AC3 /* LadingViewController.xib */; };
 		84A9B6491A7A7FD300AB37D3 /* MTStackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A9B6481A7A7FD300AB37D3 /* MTStackViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -340,6 +344,12 @@
 		84728C4B1A6FF8EF00DECEB1 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
 		84728C4C1A6FF8EF00DECEB1 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
 		84728C4D1A6FF8EF00DECEB1 /* SignUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
+		84A594521A825C1D00ED5AC3 /* LadingTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LadingTableCell.h; sourceTree = "<group>"; };
+		84A594531A825C1D00ED5AC3 /* LadingTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LadingTableCell.m; sourceTree = "<group>"; };
+		84A594541A825C1D00ED5AC3 /* LadingTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LadingTableCell.xib; sourceTree = "<group>"; };
+		84A594551A825C1D00ED5AC3 /* LadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LadingViewController.h; sourceTree = "<group>"; };
+		84A594561A825C1D00ED5AC3 /* LadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LadingViewController.m; sourceTree = "<group>"; };
+		84A594571A825C1D00ED5AC3 /* LadingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LadingViewController.xib; sourceTree = "<group>"; };
 		84A9B6471A7A7FD300AB37D3 /* MTStackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTStackViewController.h; sourceTree = "<group>"; };
 		84A9B6481A7A7FD300AB37D3 /* MTStackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTStackViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -766,6 +776,7 @@
 		84728C291A6FEFA000DECEB1 /* Viewcontrollers */ = {
 			isa = PBXGroup;
 			children = (
+				84A594511A825C1D00ED5AC3 /* Lading */,
 				3023D1611A82367700BBF8C2 /* ProfileCustomer */,
 				3023D13F1A81FDCE00BBF8C2 /* Commodity */,
 				30A6B1571A7B74BC009640C9 /* CreateShipment */,
@@ -824,6 +835,19 @@
 				84728C4D1A6FF8EF00DECEB1 /* SignUpViewController.xib */,
 			);
 			path = SignUp;
+			sourceTree = "<group>";
+		};
+		84A594511A825C1D00ED5AC3 /* Lading */ = {
+			isa = PBXGroup;
+			children = (
+				84A594521A825C1D00ED5AC3 /* LadingTableCell.h */,
+				84A594531A825C1D00ED5AC3 /* LadingTableCell.m */,
+				84A594541A825C1D00ED5AC3 /* LadingTableCell.xib */,
+				84A594551A825C1D00ED5AC3 /* LadingViewController.h */,
+				84A594561A825C1D00ED5AC3 /* LadingViewController.m */,
+				84A594571A825C1D00ED5AC3 /* LadingViewController.xib */,
+			);
+			path = Lading;
 			sourceTree = "<group>";
 		};
 		84A9B6461A7A7FD300AB37D3 /* MTStackViewController */ = {
@@ -926,6 +950,7 @@
 				301BFA5E1A7A51DC0086FA83 /* photo5t.jpg in Resources */,
 				301BFA621A7A51DC0086FA83 /* photo7t.jpg in Resources */,
 				30A6B18C1A7B8E98009640C9 /* GoogleMaps.bundle in Resources */,
+				84A5945B1A825C1D00ED5AC3 /* LadingViewController.xib in Resources */,
 				3023D1581A82356500BBF8C2 /* 011_yes-128.png in Resources */,
 				301BFA551A7A51DC0086FA83 /* photo1.jpg in Resources */,
 				84728C2C1A6FF00000DECEB1 /* Images.xcassets in Resources */,
@@ -942,6 +967,7 @@
 				307C6BF01A78CC15003F683E /* ViewController.xib in Resources */,
 				301BFA631A7A51DC0086FA83 /* photo8.jpg in Resources */,
 				301BFA601A7A51DC0086FA83 /* photo6t.jpg in Resources */,
+				84A594591A825C1D00ED5AC3 /* LadingTableCell.xib in Resources */,
 				30A6B1671A7B793A009640C9 /* MapView.xib in Resources */,
 				84728C361A6FF6E700DECEB1 /* LoginViewController.xib in Resources */,
 				301BFA5C1A7A51DC0086FA83 /* photo4t.jpg in Resources */,
@@ -982,6 +1008,7 @@
 				301BFA2B1A7A50C40086FA83 /* MKAnnotationView+WebCache.m in Sources */,
 				84728C1B1A6FEF0300DECEB1 /* AFXMLRequestOperation.m in Sources */,
 				84728C351A6FF6E700DECEB1 /* LoginViewController.m in Sources */,
+				84A594581A825C1D00ED5AC3 /* LadingTableCell.m in Sources */,
 				301BFA281A7A50C40086FA83 /* PSTGridLayoutSection.m in Sources */,
 				301BFA211A7A50C40086FA83 /* PSTCollectionViewFlowLayout.m in Sources */,
 				301BFA301A7A50C40086FA83 /* SDWebImageDownloader.m in Sources */,
@@ -1009,6 +1036,7 @@
 				301BFA231A7A50C40086FA83 /* PSTCollectionViewLayout.m in Sources */,
 				301BFA351A7A50C40086FA83 /* UIImage+GIF.m in Sources */,
 				84728C181A6FEF0300DECEB1 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				84A5945A1A825C1D00ED5AC3 /* LadingViewController.m in Sources */,
 				301BFA221A7A50C40086FA83 /* PSTCollectionViewItemKey.m in Sources */,
 				301BFA1F1A7A50C40086FA83 /* PSTCollectionViewController.m in Sources */,
 				84728C4E1A6FF8EF00DECEB1 /* SignUpViewController.m in Sources */,
