@@ -76,8 +76,10 @@
 		3023D15C1A82356500BBF8C2 /* Clothes.png in Resources */ = {isa = PBXBuildFile; fileRef = 3023D1551A82356500BBF8C2 /* Clothes.png */; };
 		3023D15D1A82356500BBF8C2 /* restaurant.png in Resources */ = {isa = PBXBuildFile; fileRef = 3023D1561A82356500BBF8C2 /* restaurant.png */; };
 		3023D15E1A82356500BBF8C2 /* Wellness_Beauty.png in Resources */ = {isa = PBXBuildFile; fileRef = 3023D1571A82356500BBF8C2 /* Wellness_Beauty.png */; };
+		3023D1601A82364B00BBF8C2 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A6B1891A7B8E7C009640C9 /* GoogleMaps.framework */; };
+		3023D1651A8236A500BBF8C2 /* ProfileCustomerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3023D1631A8236A500BBF8C2 /* ProfileCustomerViewController.m */; };
+		3023D1661A8236A500BBF8C2 /* ProfileCustomerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3023D1641A8236A500BBF8C2 /* ProfileCustomerViewController.xib */; };
 		3030AB651A7BA0C900F284C9 /* NIDropDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 3030AB641A7BA0C900F284C9 /* NIDropDown.m */; };
-		3030AB6B1A7BA31300F284C9 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3030AB6A1A7BA31300F284C9 /* GoogleMaps.framework */; };
 		307C6BE51A78CB0C003F683E /* ASFLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 307C6BDC1A78CB0C003F683E /* ASFLabel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		307C6BE61A78CB0C003F683E /* ASFTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 307C6BDE1A78CB0C003F683E /* ASFTableView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		307C6BE71A78CB0C003F683E /* ASFTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 307C6BE01A78CB0C003F683E /* ASFTableViewCell.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -256,9 +258,11 @@
 		3023D1551A82356500BBF8C2 /* Clothes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Clothes.png; sourceTree = "<group>"; };
 		3023D1561A82356500BBF8C2 /* restaurant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = restaurant.png; sourceTree = "<group>"; };
 		3023D1571A82356500BBF8C2 /* Wellness_Beauty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wellness_Beauty.png; sourceTree = "<group>"; };
+		3023D1621A8236A500BBF8C2 /* ProfileCustomerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileCustomerViewController.h; sourceTree = "<group>"; };
+		3023D1631A8236A500BBF8C2 /* ProfileCustomerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileCustomerViewController.m; sourceTree = "<group>"; };
+		3023D1641A8236A500BBF8C2 /* ProfileCustomerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileCustomerViewController.xib; sourceTree = "<group>"; };
 		3030AB631A7BA0C900F284C9 /* NIDropDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIDropDown.h; sourceTree = "<group>"; };
 		3030AB641A7BA0C900F284C9 /* NIDropDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIDropDown.m; sourceTree = "<group>"; };
-		3030AB6A1A7BA31300F284C9 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = "VietCourier/Utilities/GoogleMaps framework/GoogleMaps.framework"; sourceTree = "<group>"; };
 		307C6BDB1A78CB0C003F683E /* ASFLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASFLabel.h; sourceTree = "<group>"; };
 		307C6BDC1A78CB0C003F683E /* ASFLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASFLabel.m; sourceTree = "<group>"; };
 		307C6BDD1A78CB0C003F683E /* ASFTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASFTableView.h; sourceTree = "<group>"; };
@@ -289,7 +293,6 @@
 		30A6B17D1A7B7A7D009640C9 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		30A6B17F1A7B7A86009640C9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		30A6B1811A7B7A8E009640C9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		30A6B1871A7B8E0F009640C9 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = "VietCourier/Utilities/GoogleMaps framework/GoogleMaps.framework"; sourceTree = "<group>"; };
 		30A6B1891A7B8E7C009640C9 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
 		30A6B18B1A7B8E98009640C9 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
 		84728BBB1A6FEDFE00DECEB1 /* VietCourier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VietCourier.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -346,7 +349,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3030AB6B1A7BA31300F284C9 /* GoogleMaps.framework in Frameworks */,
+				3023D1601A82364B00BBF8C2 /* GoogleMaps.framework in Frameworks */,
 				30A6B1821A7B7A8E009640C9 /* SystemConfiguration.framework in Frameworks */,
 				30A6B1801A7B7A86009640C9 /* QuartzCore.framework in Frameworks */,
 				30A6B17E1A7B7A7D009640C9 /* OpenGLES.framework in Frameworks */,
@@ -551,13 +554,6 @@
 			path = Commodity;
 			sourceTree = "<group>";
 		};
-		3023D14F1A82353300BBF8C2 /* images */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = images;
-			sourceTree = "<group>";
-		};
 		3023D1501A82356500BBF8C2 /* images */ = {
 			isa = PBXGroup;
 			children = (
@@ -570,6 +566,16 @@
 				3023D1571A82356500BBF8C2 /* Wellness_Beauty.png */,
 			);
 			path = images;
+			sourceTree = "<group>";
+		};
+		3023D1611A82367700BBF8C2 /* ProfileCustomer */ = {
+			isa = PBXGroup;
+			children = (
+				3023D1621A8236A500BBF8C2 /* ProfileCustomerViewController.h */,
+				3023D1631A8236A500BBF8C2 /* ProfileCustomerViewController.m */,
+				3023D1641A8236A500BBF8C2 /* ProfileCustomerViewController.xib */,
+			);
+			path = ProfileCustomer;
 			sourceTree = "<group>";
 		};
 		3030AB621A7BA0BE00F284C9 /* NIDropDown */ = {
@@ -749,7 +755,6 @@
 			isa = PBXGroup;
 			children = (
 				3023D1501A82356500BBF8C2 /* images */,
-				3023D14F1A82353300BBF8C2 /* images */,
 				301BFA421A7A51DC0086FA83 /* MWPhotoBrowser.bundle */,
 				301BFA431A7A51DC0086FA83 /* Photos */,
 				84728C2A1A6FF00000DECEB1 /* Images.xcassets */,
@@ -761,6 +766,7 @@
 		84728C291A6FEFA000DECEB1 /* Viewcontrollers */ = {
 			isa = PBXGroup;
 			children = (
+				3023D1611A82367700BBF8C2 /* ProfileCustomer */,
 				3023D13F1A81FDCE00BBF8C2 /* Commodity */,
 				30A6B1571A7B74BC009640C9 /* CreateShipment */,
 				307C6BEB1A78CBEB003F683E /* Balance */,
@@ -787,8 +793,6 @@
 		84728C431A6FF7EC00DECEB1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3030AB6A1A7BA31300F284C9 /* GoogleMaps.framework */,
-				30A6B1871A7B8E0F009640C9 /* GoogleMaps.framework */,
 				30A6B1811A7B7A8E009640C9 /* SystemConfiguration.framework */,
 				30A6B17F1A7B7A86009640C9 /* QuartzCore.framework */,
 				30A6B17D1A7B7A7D009640C9 /* OpenGLES.framework */,
@@ -941,6 +945,7 @@
 				30A6B1671A7B793A009640C9 /* MapView.xib in Resources */,
 				84728C361A6FF6E700DECEB1 /* LoginViewController.xib in Resources */,
 				301BFA5C1A7A51DC0086FA83 /* photo4t.jpg in Resources */,
+				3023D1661A8236A500BBF8C2 /* ProfileCustomerViewController.xib in Resources */,
 				301BFA541A7A51DC0086FA83 /* MWPhotoBrowser.bundle in Resources */,
 				301BFA561A7A51DC0086FA83 /* photo1t.jpg in Resources */,
 				301BFA571A7A51DC0086FA83 /* photo2.jpg in Resources */,
@@ -991,6 +996,7 @@
 				84728C171A6FEF0300DECEB1 /* AFJSONRequestOperation.m in Sources */,
 				301BFA391A7A50C40086FA83 /* UIImageView+WebCache.m in Sources */,
 				301BFA361A7A50C40086FA83 /* UIImage+MultiFormat.m in Sources */,
+				3023D1651A8236A500BBF8C2 /* ProfileCustomerViewController.m in Sources */,
 				307C6BE91A78CB0C003F683E /* ASFTableViewPublicGlobals.m in Sources */,
 				30A6B1661A7B793A009640C9 /* MapView.m in Sources */,
 				301BFA341A7A50C40086FA83 /* UIButton+WebCache.m in Sources */,
@@ -1143,6 +1149,8 @@
 					framework,
 					"$(PROJECT_DIR)/VietCourier/Utilities/GoogleMaps",
 					framework,
+					"$(PROJECT_DIR)/VietCourier/Utilities/GoogleMaps",
+					framework,
 				);
 				INFOPLIST_FILE = VietCourier/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
@@ -1163,6 +1171,8 @@
 					"$(PROJECT_DIR)/VietCourier/Utilities/GoogleMaps",
 					framework,
 					"$(PROJECT_DIR)/VietCourier/Resources",
+					"$(PROJECT_DIR)/VietCourier/Utilities/GoogleMaps",
+					framework,
 					"$(PROJECT_DIR)/VietCourier/Utilities/GoogleMaps",
 					framework,
 					"$(PROJECT_DIR)/VietCourier/Utilities/GoogleMaps",

@@ -11,6 +11,7 @@
 #import "CreateShipmentViewController.h"
 #import "DefinitionAPI.h"
 #import "CommodityViewController.h"
+#import "ProfileCustomerViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -27,9 +28,11 @@
     
     LoginViewController *loginViewController = [[LoginViewController alloc] initWithNibName:@"LoginViewController"
                                                 bundle:nil];
+    ProfileCustomerViewController *profileCustomerViewController = [[ProfileCustomerViewController alloc] initWithNibName:@"ProfileCustomerViewController"
+                                                                                     bundle:nil];
     menu = [[Menu alloc] initWithStyle:UITableViewStylePlain];
     UINavigationController *contentNavigationController = [[UINavigationController alloc]
-                                                           initWithRootViewController:commodityViewController];
+                                                           initWithRootViewController:profileCustomerViewController];
     contentNavigationController.navigationBar.hidden = NO;
     //
     stackViewController = [[MTStackViewController alloc] initWithNibName:nil bundle:nil];
