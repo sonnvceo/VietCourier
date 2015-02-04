@@ -17,10 +17,71 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    mapView = [[MapView alloc] initWithXibFile:self];
-    [subMapView addSubview:mapView];
-}
 
+    
+}
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    mapView = [[MapView alloc] initWithXibFile:self];
+    mapView.frame = subMapView.frame;
+    [subMapView addSubview:mapView];
+    // add horizontal constraints
+        NSLayoutConstraint *topConstraint = [NSLayoutConstraint constraintWithItem: mapView
+                                                                         attribute:NSLayoutAttributeTop
+                                                                         relatedBy:NSLayoutRelationEqual
+                                                                            toItem:self.view
+                                                                         attribute:NSLayoutAttributeTop
+                                                                        multiplier:1.0
+                                                                          constant:0.0];
+        NSLayoutConstraint *bottomConstraint = [NSLayoutConstraint constraintWithItem: mapView
+                                                                         attribute:NSLayoutAttributeBottom
+                                                                         relatedBy:NSLayoutRelationEqual
+                                                                            toItem:self.view
+                                                                         attribute:NSLayoutAttributeBottom
+                                                                        multiplier:1.0
+                                                                          constant:0.0];
+    
+    NSLayoutConstraint *leadingConstraint = [NSLayoutConstraint constraintWithItem:mapView
+                                                                         attribute:NSLayoutAttributeLeading
+                                                                         relatedBy:NSLayoutRelationEqual
+                                                                            toItem:self.view
+                                                                         attribute:NSLayoutAttributeLeading
+                                                                        multiplier:1.0
+                                                                          constant:0.0];
+    
+    NSLayoutConstraint *widthConstraint = [NSLayoutConstraint constraintWithItem:mapView
+                                                                        attribute:NSLayoutAttributeWidth
+                                                                        relatedBy:NSLayoutRelationEqual
+                                                                           toItem:self.view
+                                                                        attribute:NSLayoutAttributeWidth
+                                                                       multiplier:1.0
+                                                                         constant:0.0];
+    NSLayoutConstraint *heightConstraint = [NSLayoutConstraint constraintWithItem:mapView
+                                                                       attribute:NSLayoutAttributeHeight
+                                                                       relatedBy:NSLayoutRelationEqual
+                                                                          toItem:self.view
+                                                                       attribute:NSLayoutAttributeHeight
+                                                                      multiplier:1.0
+                                                                        constant:0.0];
+
+    
+    NSLayoutConstraint *trailingConstraint = [NSLayoutConstraint constraintWithItem:mapView
+                                                                          attribute:NSLayoutAttributeTrailing
+                                                                          relatedBy:NSLayoutRelationEqual
+                                                                             toItem:self.view
+                                                                          attribute:NSLayoutAttributeTrailing
+                                                                         multiplier:1.0
+                                                                           constant:0.0];
+    
+    [mapView addConstraints:[NSArray arrayWithObjects:leadingConstraint,
+                                widthConstraint,
+                                trailingConstraint,
+                                heightConstraint,
+                                topConstraint,
+                                bottomConstraint,
+                                nil]];
+
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
