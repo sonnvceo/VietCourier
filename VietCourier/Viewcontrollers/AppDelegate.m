@@ -32,7 +32,7 @@
                                                                                      bundle:nil];
     menu = [[Menu alloc] initWithStyle:UITableViewStylePlain];
     UINavigationController *contentNavigationController = [[UINavigationController alloc]
-                                                           initWithRootViewController:profileCustomerViewController];
+                                                           initWithRootViewController:loginViewController];
     contentNavigationController.navigationBar.hidden = NO;
     //
     stackViewController = [[MTStackViewController alloc] initWithNibName:nil bundle:nil];

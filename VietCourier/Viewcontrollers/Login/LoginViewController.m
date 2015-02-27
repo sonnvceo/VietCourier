@@ -9,6 +9,7 @@
 #import "LoginViewController.h"
 #import <CommonCrypto/CommonDigest.h>
 #import "SignUpViewController.h"
+
 @interface LoginViewController ()
 
 @end
@@ -79,19 +80,37 @@
 
 -(void) postLogin
 {
-//    NSString *string= [NSString stringWithFormat:@"http://www.ufightlive.tv/home/api_login"];
+//    NSString *string= [NSString stringWithFormat:@"http://vcourier.elasticbeanstalk.com/v1/customers"];
 //    NSURL *url = [NSURL URLWithString:string];
 //    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
 //    [request setHTTPMethod:@"POST"];
-//    NSString *username = email.text;
-//    NSString *pass = password.text;
-//    [request setValue:username forHTTPHeaderField:@"username"];
+//    NSString *username = @"a";
+//    NSString *pass = @"a";
+//    [request setValue:@"application/json" forHTTPHeaderField:@"Accept"];
+//    [request setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
+//    [request setValue:username forHTTPHeaderField:@"userName"];
 //    [request setValue:pass forHTTPHeaderField:@"password"];
 //    NSURLResponse *response;
 //    NSError *err;
 //    NSData *responseData = [NSURLConnection sendSynchronousRequest:request returningResponse:&response error:&err];
-//    NSString *str = [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding];
     
+//    NSString *str = [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding];
+
+    NSString *URL_REGISTER = @"http://54.65.5.166:8080/v1/customers";
+    AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
+    manager.requestSerializer = [AFJSONRequestSerializer serializer];
+    
+    NSDictionary *params = @{@"userName" : @"sonnv", @"password" : @"123"};
+
+    [manager POST:URL_REGISTER parameters:params
+          success:^(AFHTTPRequestOperation *operation, id responseObject) {
+         NSLog(@"JSON: %@", responseObject);
+     }
+          failure:
+     ^(AFHTTPRequestOperation *operation, NSError *error) {
+         NSLog(@"Error: %@", error);
+     }];
+
 /* sonnv
     NSString *username = email.text;
     NSString *pass = [self md5:password.text];
@@ -125,30 +144,31 @@
 */
 }
 -(IBAction)btnLogin:(id)sender{
-    NSInteger error = 0;
-    NSString *message = @"Please enter email";
-    if (email.text.length == 0) {
-        error = 1;
-    }else if(password.text.length == 0)
-    {
-        error = 1;
-        message = @"Please enter password";
-    }else
-    {
-        if ([self checkIsValidEmail:email.text]) {
-            error = 1;
-            message = @"Invalidate Email";
-        }
-    }
-    
-    if (error == 1) {
-        [[[UIAlertView alloc]initWithTitle:@"Error" message:message delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil]show];
-    }else
-    {
-        [self showLoadingProgress:@selector(postLogin)];
-    }
-    [email resignFirstResponder];
-    [password resignFirstResponder];
+//    NSInteger error = 0;
+//    NSString *message = @"Please enter email";
+//    if (email.text.length == 0) {
+//        error = 1;
+//    }else if(password.text.length == 0)
+//    {
+//        error = 1;
+//        message = @"Please enter password";
+//    }else
+//    {
+//        if ([self checkIsValidEmail:email.text]) {
+//            error = 1;
+//            message = @"Invalidate Email";
+//        }
+//    }
+//    
+//    if (error == 1) {
+//        [[[UIAlertView alloc]initWithTitle:@"Error" message:message delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil]show];
+//    }else
+//    {
+//        [self showLoadingProgress:@selector(postLogin)];
+//    }
+//    [email resignFirstResponder];
+//    [password resignFirstResponder];
+    [self postLogin];
 }
 -(IBAction)btnSignUp:(id)sender{
     SignUpViewController *signUp = [[SignUpViewController alloc]initWithNibName:@"SignUpViewController" bundle:nil];
