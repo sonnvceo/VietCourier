@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "ASFTableView.h"
-@interface ViewController : UIViewController
+@interface BalanceViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet ASFTableView *mASFTableView;
 

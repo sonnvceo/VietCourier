@@ -13,43 +13,26 @@
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
-            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QQa-qR-yxX">
-                    <rect key="frame" x="101" y="525" width="119" height="30"/>
-                    <state key="normal" title="Tạo vận đơn mới">
-                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                    </state>
-                </button>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="64" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="q1W-Jb-Aip">
-                    <rect key="frame" x="0.0" y="44" width="320" height="463"/>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="64" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="q1W-Jb-Aip">
+                    <rect key="frame" x="0.0" y="44" width="320" height="400"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    <constraints>
-                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="463" id="Ivd-QK-Y8z"/>
-                        <constraint firstAttribute="width" constant="320" id="YJD-NI-3Wz"/>
-                        <constraint firstAttribute="height" constant="463" id="fiH-b6-rKQ"/>
-                    </constraints>
                     <connections>
                         <outlet property="dataSource" destination="-1" id="oVY-cQ-OBb"/>
                         <outlet property="delegate" destination="-1" id="NK3-Rf-ps0"/>
                     </connections>
                 </tableView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QQa-qR-yxX">
+                    <rect key="frame" x="90" y="442" width="119" height="30"/>
+                    <state key="normal" title="Tạo vận đơn mới">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-            <constraints>
-                <constraint firstItem="q1W-Jb-Aip" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="44" id="1Sa-iK-hnV"/>
-                <constraint firstAttribute="bottom" secondItem="q1W-Jb-Aip" secondAttribute="bottom" constant="61" id="4pd-Uf-MQ2"/>
-                <constraint firstAttribute="trailing" secondItem="q1W-Jb-Aip" secondAttribute="trailing" id="AHo-4K-5hq"/>
-                <constraint firstItem="q1W-Jb-Aip" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="CQA-bn-Zen"/>
-                <constraint firstItem="q1W-Jb-Aip" firstAttribute="centerX" secondItem="QQa-qR-yxX" secondAttribute="centerX" id="DDs-Ld-YF4"/>
-                <constraint firstItem="QQa-qR-yxX" firstAttribute="top" secondItem="q1W-Jb-Aip" secondAttribute="bottom" constant="18" id="GWE-Lb-19g"/>
-                <constraint firstAttribute="centerX" secondItem="QQa-qR-yxX" secondAttribute="centerX" id="Laq-Ls-Wy9"/>
-                <constraint firstItem="QQa-qR-yxX" firstAttribute="top" secondItem="q1W-Jb-Aip" secondAttribute="bottom" constant="18" id="c75-8L-KdQ"/>
-                <constraint firstItem="q1W-Jb-Aip" firstAttribute="top" relation="greaterThanOrEqual" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="44" id="fn2-6Y-WDD"/>
-                <constraint firstAttribute="bottom" secondItem="QQa-qR-yxX" secondAttribute="bottom" constant="13" id="oxF-Ac-rx0"/>
-                <constraint firstItem="q1W-Jb-Aip" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="wI9-Mc-ZmI"/>
-            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
             <point key="canvasLocation" x="304" y="269"/>
         </view>
     </objects>

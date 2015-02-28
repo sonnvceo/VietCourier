@@ -84,8 +84,8 @@
 		307C6BE71A78CB0C003F683E /* ASFTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 307C6BE01A78CB0C003F683E /* ASFTableViewCell.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		307C6BE81A78CB0C003F683E /* ASFTableViewPrivateGlobals.m in Sources */ = {isa = PBXBuildFile; fileRef = 307C6BE21A78CB0C003F683E /* ASFTableViewPrivateGlobals.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		307C6BE91A78CB0C003F683E /* ASFTableViewPublicGlobals.m in Sources */ = {isa = PBXBuildFile; fileRef = 307C6BE41A78CB0C003F683E /* ASFTableViewPublicGlobals.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		307C6BEF1A78CC15003F683E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 307C6BED1A78CC15003F683E /* ViewController.m */; };
-		307C6BF01A78CC15003F683E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 307C6BEE1A78CC15003F683E /* ViewController.xib */; };
+		307C6BEF1A78CC15003F683E /* BalanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 307C6BED1A78CC15003F683E /* BalanceViewController.m */; };
+		307C6BF01A78CC15003F683E /* BalanceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 307C6BEE1A78CC15003F683E /* BalanceViewController.xib */; };
 		30A6B15B1A7B74DB009640C9 /* CreateShipmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A6B1591A7B74DB009640C9 /* CreateShipmentViewController.m */; };
 		30A6B15C1A7B74DB009640C9 /* CreateShipmentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30A6B15A1A7B74DB009640C9 /* CreateShipmentViewController.xib */; };
 		30A6B1661A7B793A009640C9 /* MapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A6B1641A7B793A009640C9 /* MapView.m */; };
@@ -102,7 +102,8 @@
 		30A6B1801A7B7A86009640C9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A6B17F1A7B7A86009640C9 /* QuartzCore.framework */; };
 		30A6B1821A7B7A8E009640C9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A6B1811A7B7A8E009640C9 /* SystemConfiguration.framework */; };
 		30A6B18C1A7B8E98009640C9 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 30A6B18B1A7B8E98009640C9 /* GoogleMaps.bundle */; };
-		846ED80E1AA0BFF30094E88D /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A6B1891A7B8E7C009640C9 /* GoogleMaps.framework */; };
+		845E45641AA153D700A8BB9E /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A6B1891A7B8E7C009640C9 /* GoogleMaps.framework */; };
+		845E45661AA15D4500A8BB9E /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845E45651AA15D4500A8BB9E /* LoginViewController.xib */; };
 		846ED8221AA0C36C0094E88D /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 846ED8101AA0C36C0094E88D /* AFHTTPRequestOperation.m */; };
 		846ED8231AA0C36C0094E88D /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 846ED8121AA0C36C0094E88D /* AFHTTPRequestOperationManager.m */; };
 		846ED8241AA0C36C0094E88D /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 846ED8141AA0C36C0094E88D /* AFHTTPSessionManager.m */; };
@@ -120,7 +121,6 @@
 		84728C2D1A6FF00000DECEB1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84728C2B1A6FF00000DECEB1 /* LaunchScreen.xib */; };
 		84728C301A6FF02F00DECEB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84728C2F1A6FF02F00DECEB1 /* AppDelegate.m */; };
 		84728C351A6FF6E700DECEB1 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84728C331A6FF6E700DECEB1 /* LoginViewController.m */; };
-		84728C361A6FF6E700DECEB1 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84728C341A6FF6E700DECEB1 /* LoginViewController.xib */; };
 		84728C441A6FF83800DECEB1 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84728C371A6FF78800DECEB1 /* Accounts.framework */; };
 		84728C451A6FF83E00DECEB1 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84728C411A6FF7D800DECEB1 /* Social.framework */; };
 		84728C461A6FF84500DECEB1 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84728C3F1A6FF7CC00DECEB1 /* MediaPlayer.framework */; };
@@ -277,9 +277,9 @@
 		307C6BE21A78CB0C003F683E /* ASFTableViewPrivateGlobals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASFTableViewPrivateGlobals.m; sourceTree = "<group>"; };
 		307C6BE31A78CB0C003F683E /* ASFTableViewPublicGlobals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASFTableViewPublicGlobals.h; sourceTree = "<group>"; };
 		307C6BE41A78CB0C003F683E /* ASFTableViewPublicGlobals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASFTableViewPublicGlobals.m; sourceTree = "<group>"; };
-		307C6BEC1A78CC15003F683E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		307C6BED1A78CC15003F683E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		307C6BEE1A78CC15003F683E /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		307C6BEC1A78CC15003F683E /* BalanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BalanceViewController.h; sourceTree = "<group>"; };
+		307C6BED1A78CC15003F683E /* BalanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BalanceViewController.m; sourceTree = "<group>"; };
+		307C6BEE1A78CC15003F683E /* BalanceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BalanceViewController.xib; sourceTree = "<group>"; };
 		30A6B1581A7B74DB009640C9 /* CreateShipmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateShipmentViewController.h; sourceTree = "<group>"; };
 		30A6B1591A7B74DB009640C9 /* CreateShipmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateShipmentViewController.m; sourceTree = "<group>"; };
 		30A6B15A1A7B74DB009640C9 /* CreateShipmentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateShipmentViewController.xib; sourceTree = "<group>"; };
@@ -299,6 +299,8 @@
 		30A6B1811A7B7A8E009640C9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		30A6B1891A7B8E7C009640C9 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
 		30A6B18B1A7B8E98009640C9 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		842C24AE1AA1517D00B65F4D /* VietCourier-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VietCourier-Prefix.pch"; sourceTree = "<group>"; };
+		845E45651AA15D4500A8BB9E /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		846ED80F1AA0C36C0094E88D /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
 		846ED8101AA0C36C0094E88D /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
 		846ED8111AA0C36C0094E88D /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
@@ -334,7 +336,6 @@
 		84728C2F1A6FF02F00DECEB1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		84728C321A6FF6E700DECEB1 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		84728C331A6FF6E700DECEB1 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
-		84728C341A6FF6E700DECEB1 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		84728C371A6FF78800DECEB1 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		84728C391A6FF7A800DECEB1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		84728C3B1A6FF7B600DECEB1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -359,7 +360,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				846ED80E1AA0BFF30094E88D /* GoogleMaps.framework in Frameworks */,
+				845E45641AA153D700A8BB9E /* GoogleMaps.framework in Frameworks */,
 				30A6B1821A7B7A8E009640C9 /* SystemConfiguration.framework in Frameworks */,
 				30A6B1801A7B7A86009640C9 /* QuartzCore.framework in Frameworks */,
 				30A6B17E1A7B7A7D009640C9 /* OpenGLES.framework in Frameworks */,
@@ -617,9 +618,9 @@
 		307C6BEB1A78CBEB003F683E /* Balance */ = {
 			isa = PBXGroup;
 			children = (
-				307C6BEC1A78CC15003F683E /* ViewController.h */,
-				307C6BED1A78CC15003F683E /* ViewController.m */,
-				307C6BEE1A78CC15003F683E /* ViewController.xib */,
+				307C6BEC1A78CC15003F683E /* BalanceViewController.h */,
+				307C6BED1A78CC15003F683E /* BalanceViewController.m */,
+				307C6BEE1A78CC15003F683E /* BalanceViewController.xib */,
 			);
 			path = Balance;
 			sourceTree = "<group>";
@@ -682,6 +683,7 @@
 			children = (
 				84728BBF1A6FEDFE00DECEB1 /* Info.plist */,
 				84728BC01A6FEDFE00DECEB1 /* main.m */,
+				842C24AE1AA1517D00B65F4D /* VietCourier-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -796,7 +798,7 @@
 			children = (
 				84728C321A6FF6E700DECEB1 /* LoginViewController.h */,
 				84728C331A6FF6E700DECEB1 /* LoginViewController.m */,
-				84728C341A6FF6E700DECEB1 /* LoginViewController.xib */,
+				845E45651AA15D4500A8BB9E /* LoginViewController.xib */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -951,6 +953,7 @@
 				301BFA621A7A51DC0086FA83 /* photo7t.jpg in Resources */,
 				30A6B18C1A7B8E98009640C9 /* GoogleMaps.bundle in Resources */,
 				84A5945B1A825C1D00ED5AC3 /* LadingViewController.xib in Resources */,
+				845E45661AA15D4500A8BB9E /* LoginViewController.xib in Resources */,
 				3023D1581A82356500BBF8C2 /* 011_yes-128.png in Resources */,
 				301BFA551A7A51DC0086FA83 /* photo1.jpg in Resources */,
 				84728C2C1A6FF00000DECEB1 /* Images.xcassets in Resources */,
@@ -964,12 +967,11 @@
 				301BFA5A1A7A51DC0086FA83 /* photo3t.jpg in Resources */,
 				301BFA581A7A51DC0086FA83 /* photo2t.jpg in Resources */,
 				3023D15B1A82356500BBF8C2 /* applications-other.png in Resources */,
-				307C6BF01A78CC15003F683E /* ViewController.xib in Resources */,
+				307C6BF01A78CC15003F683E /* BalanceViewController.xib in Resources */,
 				301BFA631A7A51DC0086FA83 /* photo8.jpg in Resources */,
 				301BFA601A7A51DC0086FA83 /* photo6t.jpg in Resources */,
 				84A594591A825C1D00ED5AC3 /* LadingTableCell.xib in Resources */,
 				30A6B1671A7B793A009640C9 /* MapView.xib in Resources */,
-				84728C361A6FF6E700DECEB1 /* LoginViewController.xib in Resources */,
 				301BFA5C1A7A51DC0086FA83 /* photo4t.jpg in Resources */,
 				3023D1661A8236A500BBF8C2 /* ProfileCustomerViewController.xib in Resources */,
 				301BFA541A7A51DC0086FA83 /* MWPhotoBrowser.bundle in Resources */,
@@ -993,7 +995,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				307C6BEF1A78CC15003F683E /* ViewController.m in Sources */,
+				307C6BEF1A78CC15003F683E /* BalanceViewController.m in Sources */,
 				301BFA141A7A50C40086FA83 /* MWGridCell.m in Sources */,
 				301BFA261A7A50C40086FA83 /* PSTGridLayoutItem.m in Sources */,
 				301BFA271A7A50C40086FA83 /* PSTGridLayoutRow.m in Sources */,
@@ -1193,7 +1195,12 @@
 					framework,
 					"$(PROJECT_DIR)/VietCourier/Utilities/GoogleMaps",
 					framework,
+					"$(PROJECT_DIR)/VietCourier/Utilities/GoogleMaps",
+					framework,
+					"$(PROJECT_DIR)/VietCourier/Utilities/GoogleMaps",
+					framework,
 				);
+				GCC_PREFIX_HEADER = "VietCourier/VietCourier-Prefix.pch";
 				INFOPLIST_FILE = VietCourier/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1233,7 +1240,12 @@
 					framework,
 					"$(PROJECT_DIR)/VietCourier/Utilities/GoogleMaps",
 					framework,
+					"$(PROJECT_DIR)/VietCourier/Utilities/GoogleMaps",
+					framework,
+					"$(PROJECT_DIR)/VietCourier/Utilities/GoogleMaps",
+					framework,
 				);
+				GCC_PREFIX_HEADER = "VietCourier/VietCourier-Prefix.pch";
 				INFOPLIST_FILE = VietCourier/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

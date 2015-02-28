@@ -6,15 +6,15 @@
 //  Copyright (c) 2015 SonNV. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "BalanceViewController.h"
 
-@interface ViewController () <ASFTableViewDelegate>
+@interface BalanceViewController () <ASFTableViewDelegate>
 
 @property (nonatomic, retain) NSMutableArray *rowsArray;
 
 @end
 
-@implementation ViewController
+@implementation BalanceViewController
 
 - (id)initWithCoder:(NSCoder*)aDecoder
 {

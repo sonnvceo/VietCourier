@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 //#import "SignUpViewController.h"
-#import "MBProgressHUD.h"
-#import "AFNetworking.h"
 
 @protocol loginDelegate <NSObject>;
 @optional
