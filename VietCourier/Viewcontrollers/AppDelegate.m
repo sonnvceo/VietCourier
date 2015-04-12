@@ -12,6 +12,7 @@
 #import "DefinitionAPI.h"
 #import "CommodityViewController.h"
 #import "ProfileCustomerViewController.h"
+#import "MainViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -26,14 +27,15 @@
     CommodityViewController *commodityViewController = [[CommodityViewController alloc] initWithNibName:@"CommodityViewController" bundle:nil];
     CreateShipmentViewController *createShipmentViewController = [[CreateShipmentViewController alloc] initWithNibName:@"CreateShipmentViewController" bundle:nil];
     
-    LoginViewController *loginViewController = [[LoginViewController alloc] initWithNibName:@"LoginViewController"
-                                                bundle:nil];
-    ProfileCustomerViewController *profileCustomerViewController = [[ProfileCustomerViewController alloc] initWithNibName:@"ProfileCustomerViewController"
-                                                                                     bundle:nil];
+    LoginViewController *loginViewController = [[LoginViewController alloc] initWithNibName:@"LoginViewController" bundle:nil];
+    ProfileCustomerViewController *profileCustomerViewController = [[ProfileCustomerViewController alloc] initWithNibName:@"ProfileCustomerViewController" bundle:nil];
+    MainViewController *mainViewController = [[MainViewController alloc] initWithNibName:@"MainViewController" bundle:nil];
+    
     menu = [[Menu alloc] initWithStyle:UITableViewStylePlain];
+    
     UINavigationController *contentNavigationController = [[UINavigationController alloc]
-                                                           initWithRootViewController:loginViewController];
-    contentNavigationController.navigationBar.hidden = NO;
+                                                           initWithRootViewController:mainViewController];
+    contentNavigationController.navigationBar.hidden = YES;
     //
     stackViewController = [[MTStackViewController alloc] initWithNibName:nil bundle:nil];
     [stackViewController setAnimationDurationProportionalToPosition:YES];

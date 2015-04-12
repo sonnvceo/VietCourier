@@ -47,7 +47,7 @@
 #define URL_PHOTO_GALLERY @"http://www.clubbersapptoibiza.com/api/sa_photos_gallery"
  */
 
-#define kGoogleAPIKey @"AIzaSyD7K9Zp7X9EMQzL0SRFyjCa1hq1eqAiWDo"
+#define kGoogleAPIKey @"AIzaSyAXRgrnt40yU5XDOO5OJ2pKn1TG3RprUw4"
 
 #define OFFICIAL_SERVER @"http://www.clubbersapptoibiza.com/api/"
 #define RSS_SERVER @"http://www.clubbersapptoibiza.com/app/"

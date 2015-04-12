@@ -102,7 +102,10 @@
 		30A6B1801A7B7A86009640C9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A6B17F1A7B7A86009640C9 /* QuartzCore.framework */; };
 		30A6B1821A7B7A8E009640C9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A6B1811A7B7A8E009640C9 /* SystemConfiguration.framework */; };
 		30A6B18C1A7B8E98009640C9 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 30A6B18B1A7B8E98009640C9 /* GoogleMaps.bundle */; };
-		845E45641AA153D700A8BB9E /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A6B1891A7B8E7C009640C9 /* GoogleMaps.framework */; };
+		840210CF1ADAB1B500CA590A /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A6B1891A7B8E7C009640C9 /* GoogleMaps.framework */; };
+		840210D51ADAB3D200CA590A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840210D31ADAB3D200CA590A /* MainViewController.m */; };
+		840210D61ADAB3D200CA590A /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840210D41ADAB3D200CA590A /* MainViewController.xib */; };
+		840D29691ADA5EC6009A4745 /* ModelDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 840D29681ADA5EC6009A4745 /* ModelDefine.m */; };
 		845E45661AA15D4500A8BB9E /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845E45651AA15D4500A8BB9E /* LoginViewController.xib */; };
 		846ED8221AA0C36C0094E88D /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 846ED8101AA0C36C0094E88D /* AFHTTPRequestOperation.m */; };
 		846ED8231AA0C36C0094E88D /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 846ED8121AA0C36C0094E88D /* AFHTTPRequestOperationManager.m */; };
@@ -299,6 +302,11 @@
 		30A6B1811A7B7A8E009640C9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		30A6B1891A7B8E7C009640C9 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
 		30A6B18B1A7B8E98009640C9 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		840210D21ADAB3D200CA590A /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		840210D31ADAB3D200CA590A /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		840210D41ADAB3D200CA590A /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		840D29671ADA5EC6009A4745 /* ModelDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelDefine.h; sourceTree = "<group>"; };
+		840D29681ADA5EC6009A4745 /* ModelDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelDefine.m; sourceTree = "<group>"; };
 		842C24AE1AA1517D00B65F4D /* VietCourier-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VietCourier-Prefix.pch"; sourceTree = "<group>"; };
 		845E45651AA15D4500A8BB9E /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		846ED80F1AA0C36C0094E88D /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
@@ -360,7 +368,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				845E45641AA153D700A8BB9E /* GoogleMaps.framework in Frameworks */,
+				840210CF1ADAB1B500CA590A /* GoogleMaps.framework in Frameworks */,
 				30A6B1821A7B7A8E009640C9 /* SystemConfiguration.framework in Frameworks */,
 				30A6B1801A7B7A86009640C9 /* QuartzCore.framework in Frameworks */,
 				30A6B17E1A7B7A7D009640C9 /* OpenGLES.framework in Frameworks */,
@@ -647,6 +655,16 @@
 			path = "GoogleMaps framework";
 			sourceTree = "<group>";
 		};
+		840210D11ADAB39D00CA590A /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				840210D21ADAB3D200CA590A /* MainViewController.h */,
+				840210D31ADAB3D200CA590A /* MainViewController.m */,
+				840210D41ADAB3D200CA590A /* MainViewController.xib */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
 		84728BB21A6FEDFE00DECEB1 = {
 			isa = PBXGroup;
 			children = (
@@ -708,6 +726,8 @@
 		84728BE41A6FEE7D00DECEB1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				840D29671ADA5EC6009A4745 /* ModelDefine.h */,
+				840D29681ADA5EC6009A4745 /* ModelDefine.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -778,6 +798,7 @@
 		84728C291A6FEFA000DECEB1 /* Viewcontrollers */ = {
 			isa = PBXGroup;
 			children = (
+				840210D11ADAB39D00CA590A /* MainViewController */,
 				84A594511A825C1D00ED5AC3 /* Lading */,
 				3023D1611A82367700BBF8C2 /* ProfileCustomer */,
 				3023D13F1A81FDCE00BBF8C2 /* Commodity */,
@@ -946,6 +967,7 @@
 				301BFA5D1A7A51DC0086FA83 /* photo5.jpg in Resources */,
 				30A6B15C1A7B74DB009640C9 /* CreateShipmentViewController.xib in Resources */,
 				3023D15E1A82356500BBF8C2 /* Wellness_Beauty.png in Resources */,
+				840210D61ADAB3D200CA590A /* MainViewController.xib in Resources */,
 				3023D15A1A82356500BBF8C2 /* apple2.png in Resources */,
 				84728C2D1A6FF00000DECEB1 /* LaunchScreen.xib in Resources */,
 				301BFA5F1A7A51DC0086FA83 /* photo6.jpg in Resources */,
@@ -1002,6 +1024,7 @@
 				301BFA321A7A50C40086FA83 /* SDWebImageManager.m in Sources */,
 				301BFA1B1A7A50C40086FA83 /* MWPhotoBrowser.m in Sources */,
 				301BFA2F1A7A50C40086FA83 /* SDWebImageDecoder.m in Sources */,
+				840210D51ADAB3D200CA590A /* MainViewController.m in Sources */,
 				846ED8221AA0C36C0094E88D /* AFHTTPRequestOperation.m in Sources */,
 				3023D1431A81FE2300BBF8C2 /* CommodityViewController.m in Sources */,
 				301BFA371A7A50C40086FA83 /* UIImage+WebP.m in Sources */,
@@ -1043,6 +1066,7 @@
 				846ED82A1AA0C36C0094E88D /* AFURLSessionManager.m in Sources */,
 				301BFA201A7A50C40086FA83 /* PSTCollectionViewData.m in Sources */,
 				846ED8291AA0C36C0094E88D /* AFURLResponseSerialization.m in Sources */,
+				840D29691ADA5EC6009A4745 /* ModelDefine.m in Sources */,
 				301BFA131A7A50C40086FA83 /* DACircularProgressView.m in Sources */,
 				301BFA251A7A50C40086FA83 /* PSTGridLayoutInfo.m in Sources */,
 				301BFA171A7A50C40086FA83 /* MWZoomingScrollView.m in Sources */,
@@ -1199,13 +1223,23 @@
 					framework,
 					"$(PROJECT_DIR)/VietCourier/Utilities/GoogleMaps",
 					framework,
+					"$(PROJECT_DIR)/VietCourier/Utilities/GoogleMaps",
+					framework,
+					"$(PROJECT_DIR)/VietCourier/Utilities/GoogleMaps",
+					framework,
+					"$(PROJECT_DIR)/VietCourier/Utilities/GoogleMaps",
+					framework,
+					"$(PROJECT_DIR)/VietCourier/Utilities/GoogleMaps",
+					framework,
+					"$(PROJECT_DIR)/VietCourier/Utilities/GoogleMaps",
+					framework,
 				);
 				GCC_PREFIX_HEADER = "VietCourier/VietCourier-Prefix.pch";
 				INFOPLIST_FILE = VietCourier/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = VietCourier;
 			};
 			name = Debug;
 		};
@@ -1244,13 +1278,23 @@
 					framework,
 					"$(PROJECT_DIR)/VietCourier/Utilities/GoogleMaps",
 					framework,
+					"$(PROJECT_DIR)/VietCourier/Utilities/GoogleMaps",
+					framework,
+					"$(PROJECT_DIR)/VietCourier/Utilities/GoogleMaps",
+					framework,
+					"$(PROJECT_DIR)/VietCourier/Utilities/GoogleMaps",
+					framework,
+					"$(PROJECT_DIR)/VietCourier/Utilities/GoogleMaps",
+					framework,
+					"$(PROJECT_DIR)/VietCourier/Utilities/GoogleMaps",
+					framework,
 				);
 				GCC_PREFIX_HEADER = "VietCourier/VietCourier-Prefix.pch";
 				INFOPLIST_FILE = VietCourier/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = VietCourier;
 			};
 			name = Release;
 		};
@@ -1268,7 +1312,7 @@
 				);
 				INFOPLIST_FILE = VietCourierTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = VietCourierTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VietCourier.app/VietCourier";
 			};
 			name = Debug;
@@ -1283,7 +1327,7 @@
 				);
 				INFOPLIST_FILE = VietCourierTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = VietCourierTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VietCourier.app/VietCourier";
 			};
 			name = Release;
