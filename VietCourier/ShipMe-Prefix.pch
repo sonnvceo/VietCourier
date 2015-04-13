@@ -12,5 +12,5 @@
 #import <UIKit/UIKit.h>
 #import "MBProgressHUD.h"
 #import "AFNetworking.h"
-
+#import "AppDelegate.h"
 #endif

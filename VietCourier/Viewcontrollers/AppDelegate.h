@@ -11,12 +11,11 @@
 #import "Menu.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate> {
-    MTStackViewController *stackViewController;
     Menu *menu;
 }
-
++ (AppDelegate *)shareAppDelegate;
 @property (strong, nonatomic) UIWindow *window;
-
+@property (retain, nonatomic) MTStackViewController *stackViewController;
 
 @end
 

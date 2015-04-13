@@ -86,6 +86,7 @@
 		307C6BE91A78CB0C003F683E /* ASFTableViewPublicGlobals.m in Sources */ = {isa = PBXBuildFile; fileRef = 307C6BE41A78CB0C003F683E /* ASFTableViewPublicGlobals.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		307C6BEF1A78CC15003F683E /* BalanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 307C6BED1A78CC15003F683E /* BalanceViewController.m */; };
 		307C6BF01A78CC15003F683E /* BalanceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 307C6BEE1A78CC15003F683E /* BalanceViewController.xib */; };
+		3080A03E1ADB5C40003D6270 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3080A03D1ADB5C40003D6270 /* Reachability.m */; };
 		30A6B15B1A7B74DB009640C9 /* CreateShipmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A6B1591A7B74DB009640C9 /* CreateShipmentViewController.m */; };
 		30A6B15C1A7B74DB009640C9 /* CreateShipmentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30A6B15A1A7B74DB009640C9 /* CreateShipmentViewController.xib */; };
 		30A6B1661A7B793A009640C9 /* MapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A6B1641A7B793A009640C9 /* MapView.m */; };
@@ -102,7 +103,15 @@
 		30A6B1801A7B7A86009640C9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A6B17F1A7B7A86009640C9 /* QuartzCore.framework */; };
 		30A6B1821A7B7A8E009640C9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A6B1811A7B7A8E009640C9 /* SystemConfiguration.framework */; };
 		30A6B18C1A7B8E98009640C9 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 30A6B18B1A7B8E98009640C9 /* GoogleMaps.bundle */; };
-		840210CF1ADAB1B500CA590A /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A6B1891A7B8E7C009640C9 /* GoogleMaps.framework */; };
+		30AADC661ADB61220055454D /* AddressBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30AADC641ADB61220055454D /* AddressBookViewController.m */; };
+		30AADC671ADB61220055454D /* AddressBookViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30AADC651ADB61220055454D /* AddressBookViewController.xib */; };
+		30AADC6A1ADB644A0055454D /* AddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 30AADC691ADB644A0055454D /* AddressBook.m */; };
+		30AADC6E1ADB7A760055454D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30AADC6C1ADB7A760055454D /* Localizable.strings */; };
+		30AADC6F1ADB80600055454D /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A6B1891A7B8E7C009640C9 /* GoogleMaps.framework */; };
+		30AADC741ADBBF6B0055454D /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30AADC721ADBBF6B0055454D /* MenuTableViewController.m */; };
+		30AADC751ADBBF6B0055454D /* MenuTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30AADC731ADBBF6B0055454D /* MenuTableViewController.xib */; };
+		30AADC791ADBC33B0055454D /* MenuTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 30AADC771ADBC33B0055454D /* MenuTableCell.m */; };
+		30AADC7A1ADBC33B0055454D /* MenuTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30AADC781ADBC33B0055454D /* MenuTableCell.xib */; };
 		840210D51ADAB3D200CA590A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840210D31ADAB3D200CA590A /* MainViewController.m */; };
 		840210D61ADAB3D200CA590A /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840210D41ADAB3D200CA590A /* MainViewController.xib */; };
 		840D29691ADA5EC6009A4745 /* ModelDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 840D29681ADA5EC6009A4745 /* ModelDefine.m */; };
@@ -283,6 +292,8 @@
 		307C6BEC1A78CC15003F683E /* BalanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BalanceViewController.h; sourceTree = "<group>"; };
 		307C6BED1A78CC15003F683E /* BalanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BalanceViewController.m; sourceTree = "<group>"; };
 		307C6BEE1A78CC15003F683E /* BalanceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BalanceViewController.xib; sourceTree = "<group>"; };
+		3080A03C1ADB5C40003D6270 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		3080A03D1ADB5C40003D6270 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		30A6B1581A7B74DB009640C9 /* CreateShipmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateShipmentViewController.h; sourceTree = "<group>"; };
 		30A6B1591A7B74DB009640C9 /* CreateShipmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateShipmentViewController.m; sourceTree = "<group>"; };
 		30A6B15A1A7B74DB009640C9 /* CreateShipmentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateShipmentViewController.xib; sourceTree = "<group>"; };
@@ -302,12 +313,24 @@
 		30A6B1811A7B7A8E009640C9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		30A6B1891A7B8E7C009640C9 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
 		30A6B18B1A7B8E98009640C9 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		30AADC631ADB61220055454D /* AddressBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBookViewController.h; sourceTree = "<group>"; };
+		30AADC641ADB61220055454D /* AddressBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBookViewController.m; sourceTree = "<group>"; };
+		30AADC651ADB61220055454D /* AddressBookViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddressBookViewController.xib; sourceTree = "<group>"; };
+		30AADC681ADB644A0055454D /* AddressBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBook.h; sourceTree = "<group>"; };
+		30AADC691ADB644A0055454D /* AddressBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBook.m; sourceTree = "<group>"; };
+		30AADC6D1ADB7A760055454D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
+		30AADC711ADBBF6B0055454D /* MenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableViewController.h; sourceTree = "<group>"; };
+		30AADC721ADBBF6B0055454D /* MenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewController.m; sourceTree = "<group>"; };
+		30AADC731ADBBF6B0055454D /* MenuTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuTableViewController.xib; sourceTree = "<group>"; };
+		30AADC761ADBC33B0055454D /* MenuTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableCell.h; sourceTree = "<group>"; };
+		30AADC771ADBC33B0055454D /* MenuTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableCell.m; sourceTree = "<group>"; };
+		30AADC781ADBC33B0055454D /* MenuTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuTableCell.xib; sourceTree = "<group>"; };
 		840210D21ADAB3D200CA590A /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		840210D31ADAB3D200CA590A /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		840210D41ADAB3D200CA590A /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		840D29671ADA5EC6009A4745 /* ModelDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelDefine.h; sourceTree = "<group>"; };
 		840D29681ADA5EC6009A4745 /* ModelDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelDefine.m; sourceTree = "<group>"; };
-		842C24AE1AA1517D00B65F4D /* VietCourier-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VietCourier-Prefix.pch"; sourceTree = "<group>"; };
+		842C24AE1AA1517D00B65F4D /* ShipMe-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ShipMe-Prefix.pch"; sourceTree = "<group>"; };
 		845E45651AA15D4500A8BB9E /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		846ED80F1AA0C36C0094E88D /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
 		846ED8101AA0C36C0094E88D /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
@@ -328,10 +351,10 @@
 		846ED81F1AA0C36C0094E88D /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		846ED8201AA0C36C0094E88D /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
 		846ED8211AA0C36C0094E88D /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
-		84728BBB1A6FEDFE00DECEB1 /* VietCourier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VietCourier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84728BBB1A6FEDFE00DECEB1 /* ShipMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShipMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84728BBF1A6FEDFE00DECEB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84728BC01A6FEDFE00DECEB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		84728BD41A6FEDFE00DECEB1 /* VietCourierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VietCourierTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84728BD41A6FEDFE00DECEB1 /* ShipMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShipMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84728BD91A6FEDFE00DECEB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84728BDA1A6FEDFE00DECEB1 /* VietCourierTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VietCourierTests.m; sourceTree = "<group>"; };
 		84728BFA1A6FEF0300DECEB1 /* DefinitionAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefinitionAPI.h; sourceTree = "<group>"; };
@@ -368,7 +391,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				840210CF1ADAB1B500CA590A /* GoogleMaps.framework in Frameworks */,
+				30AADC6F1ADB80600055454D /* GoogleMaps.framework in Frameworks */,
 				30A6B1821A7B7A8E009640C9 /* SystemConfiguration.framework in Frameworks */,
 				30A6B1801A7B7A86009640C9 /* QuartzCore.framework in Frameworks */,
 				30A6B17E1A7B7A7D009640C9 /* OpenGLES.framework in Frameworks */,
@@ -633,6 +656,15 @@
 			path = Balance;
 			sourceTree = "<group>";
 		};
+		3080A03B1ADB5C40003D6270 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				3080A03C1ADB5C40003D6270 /* Reachability.h */,
+				3080A03D1ADB5C40003D6270 /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
 		30A6B1571A7B74BC009640C9 /* CreateShipment */ = {
 			isa = PBXGroup;
 			children = (
@@ -653,6 +685,37 @@
 				30A6B1891A7B8E7C009640C9 /* GoogleMaps.framework */,
 			);
 			path = "GoogleMaps framework";
+			sourceTree = "<group>";
+		};
+		30AADC621ADB60F70055454D /* AddresBook */ = {
+			isa = PBXGroup;
+			children = (
+				30AADC631ADB61220055454D /* AddressBookViewController.h */,
+				30AADC641ADB61220055454D /* AddressBookViewController.m */,
+				30AADC651ADB61220055454D /* AddressBookViewController.xib */,
+			);
+			path = AddresBook;
+			sourceTree = "<group>";
+		};
+		30AADC6B1ADB7A760055454D /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				30AADC6C1ADB7A760055454D /* Localizable.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		30AADC701ADBBF4F0055454D /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				30AADC761ADBC33B0055454D /* MenuTableCell.h */,
+				30AADC771ADBC33B0055454D /* MenuTableCell.m */,
+				30AADC781ADBC33B0055454D /* MenuTableCell.xib */,
+				30AADC711ADBBF6B0055454D /* MenuTableViewController.h */,
+				30AADC721ADBBF6B0055454D /* MenuTableViewController.m */,
+				30AADC731ADBBF6B0055454D /* MenuTableViewController.xib */,
+			);
+			path = Menu;
 			sourceTree = "<group>";
 		};
 		840210D11ADAB39D00CA590A /* MainViewController */ = {
@@ -678,8 +741,8 @@
 		84728BBC1A6FEDFE00DECEB1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				84728BBB1A6FEDFE00DECEB1 /* VietCourier.app */,
-				84728BD41A6FEDFE00DECEB1 /* VietCourierTests.xctest */,
+				84728BBB1A6FEDFE00DECEB1 /* ShipMe.app */,
+				84728BD41A6FEDFE00DECEB1 /* ShipMeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -701,7 +764,7 @@
 			children = (
 				84728BBF1A6FEDFE00DECEB1 /* Info.plist */,
 				84728BC01A6FEDFE00DECEB1 /* main.m */,
-				842C24AE1AA1517D00B65F4D /* VietCourier-Prefix.pch */,
+				842C24AE1AA1517D00B65F4D /* ShipMe-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -728,6 +791,8 @@
 			children = (
 				840D29671ADA5EC6009A4745 /* ModelDefine.h */,
 				840D29681ADA5EC6009A4745 /* ModelDefine.m */,
+				30AADC681ADB644A0055454D /* AddressBook.h */,
+				30AADC691ADB644A0055454D /* AddressBook.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -735,6 +800,7 @@
 		84728BE51A6FEF0300DECEB1 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				3080A03B1ADB5C40003D6270 /* Reachability */,
 				3030AB621A7BA0BE00F284C9 /* NIDropDown */,
 				30A6B1681A7B79D8009640C9 /* GoogleMaps framework */,
 				84A9B6461A7A7FD300AB37D3 /* MTStackViewController */,
@@ -786,6 +852,7 @@
 		84728C281A6FEF6600DECEB1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				30AADC6B1ADB7A760055454D /* en.lproj */,
 				3023D1501A82356500BBF8C2 /* images */,
 				301BFA421A7A51DC0086FA83 /* MWPhotoBrowser.bundle */,
 				301BFA431A7A51DC0086FA83 /* Photos */,
@@ -798,6 +865,8 @@
 		84728C291A6FEFA000DECEB1 /* Viewcontrollers */ = {
 			isa = PBXGroup;
 			children = (
+				30AADC701ADBBF4F0055454D /* Menu */,
+				30AADC621ADB60F70055454D /* AddresBook */,
 				840210D11ADAB39D00CA590A /* MainViewController */,
 				84A594511A825C1D00ED5AC3 /* Lading */,
 				3023D1611A82367700BBF8C2 /* ProfileCustomer */,
@@ -885,9 +954,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		84728BBA1A6FEDFE00DECEB1 /* VietCourier */ = {
+		84728BBA1A6FEDFE00DECEB1 /* ShipMe */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84728BDE1A6FEDFE00DECEB1 /* Build configuration list for PBXNativeTarget "VietCourier" */;
+			buildConfigurationList = 84728BDE1A6FEDFE00DECEB1 /* Build configuration list for PBXNativeTarget "ShipMe" */;
 			buildPhases = (
 				84728BB71A6FEDFE00DECEB1 /* Sources */,
 				84728BB81A6FEDFE00DECEB1 /* Frameworks */,
@@ -897,14 +966,14 @@
 			);
 			dependencies = (
 			);
-			name = VietCourier;
+			name = ShipMe;
 			productName = VietCourier;
-			productReference = 84728BBB1A6FEDFE00DECEB1 /* VietCourier.app */;
+			productReference = 84728BBB1A6FEDFE00DECEB1 /* ShipMe.app */;
 			productType = "com.apple.product-type.application";
 		};
-		84728BD31A6FEDFE00DECEB1 /* VietCourierTests */ = {
+		84728BD31A6FEDFE00DECEB1 /* ShipMeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84728BE11A6FEDFE00DECEB1 /* Build configuration list for PBXNativeTarget "VietCourierTests" */;
+			buildConfigurationList = 84728BE11A6FEDFE00DECEB1 /* Build configuration list for PBXNativeTarget "ShipMeTests" */;
 			buildPhases = (
 				84728BD01A6FEDFE00DECEB1 /* Sources */,
 				84728BD11A6FEDFE00DECEB1 /* Frameworks */,
@@ -915,9 +984,9 @@
 			dependencies = (
 				84728BD61A6FEDFE00DECEB1 /* PBXTargetDependency */,
 			);
-			name = VietCourierTests;
+			name = ShipMeTests;
 			productName = VietCourierTests;
-			productReference = 84728BD41A6FEDFE00DECEB1 /* VietCourierTests.xctest */;
+			productReference = 84728BD41A6FEDFE00DECEB1 /* ShipMeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -938,7 +1007,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 84728BB61A6FEDFE00DECEB1 /* Build configuration list for PBXProject "VietCourier" */;
+			buildConfigurationList = 84728BB61A6FEDFE00DECEB1 /* Build configuration list for PBXProject "ShipMe" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -951,8 +1020,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				84728BBA1A6FEDFE00DECEB1 /* VietCourier */,
-				84728BD31A6FEDFE00DECEB1 /* VietCourierTests */,
+				84728BBA1A6FEDFE00DECEB1 /* ShipMe */,
+				84728BD31A6FEDFE00DECEB1 /* ShipMeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -967,9 +1036,11 @@
 				301BFA5D1A7A51DC0086FA83 /* photo5.jpg in Resources */,
 				30A6B15C1A7B74DB009640C9 /* CreateShipmentViewController.xib in Resources */,
 				3023D15E1A82356500BBF8C2 /* Wellness_Beauty.png in Resources */,
+				30AADC6E1ADB7A760055454D /* Localizable.strings in Resources */,
 				840210D61ADAB3D200CA590A /* MainViewController.xib in Resources */,
 				3023D15A1A82356500BBF8C2 /* apple2.png in Resources */,
 				84728C2D1A6FF00000DECEB1 /* LaunchScreen.xib in Resources */,
+				30AADC671ADB61220055454D /* AddressBookViewController.xib in Resources */,
 				301BFA5F1A7A51DC0086FA83 /* photo6.jpg in Resources */,
 				301BFA5E1A7A51DC0086FA83 /* photo5t.jpg in Resources */,
 				301BFA621A7A51DC0086FA83 /* photo7t.jpg in Resources */,
@@ -994,11 +1065,13 @@
 				301BFA601A7A51DC0086FA83 /* photo6t.jpg in Resources */,
 				84A594591A825C1D00ED5AC3 /* LadingTableCell.xib in Resources */,
 				30A6B1671A7B793A009640C9 /* MapView.xib in Resources */,
+				30AADC751ADBBF6B0055454D /* MenuTableViewController.xib in Resources */,
 				301BFA5C1A7A51DC0086FA83 /* photo4t.jpg in Resources */,
 				3023D1661A8236A500BBF8C2 /* ProfileCustomerViewController.xib in Resources */,
 				301BFA541A7A51DC0086FA83 /* MWPhotoBrowser.bundle in Resources */,
 				301BFA561A7A51DC0086FA83 /* photo1t.jpg in Resources */,
 				301BFA571A7A51DC0086FA83 /* photo2.jpg in Resources */,
+				30AADC7A1ADBC33B0055454D /* MenuTableCell.xib in Resources */,
 				3023D1591A82356500BBF8C2 /* apple.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1032,6 +1105,7 @@
 				84728C351A6FF6E700DECEB1 /* LoginViewController.m in Sources */,
 				846ED8241AA0C36C0094E88D /* AFHTTPSessionManager.m in Sources */,
 				84A594581A825C1D00ED5AC3 /* LadingTableCell.m in Sources */,
+				30AADC6A1ADB644A0055454D /* AddressBook.m in Sources */,
 				301BFA281A7A50C40086FA83 /* PSTGridLayoutSection.m in Sources */,
 				301BFA211A7A50C40086FA83 /* PSTCollectionViewFlowLayout.m in Sources */,
 				301BFA301A7A50C40086FA83 /* SDWebImageDownloader.m in Sources */,
@@ -1042,7 +1116,9 @@
 				846ED8231AA0C36C0094E88D /* AFHTTPRequestOperationManager.m in Sources */,
 				846ED8271AA0C36C0094E88D /* AFURLConnectionOperation.m in Sources */,
 				301BFA2C1A7A50C40086FA83 /* NSData+ImageContentType.m in Sources */,
+				30AADC661ADB61220055454D /* AddressBookViewController.m in Sources */,
 				84728C201A6FEF0300DECEB1 /* MBProgressHUD.m in Sources */,
+				30AADC791ADBC33B0055454D /* MenuTableCell.m in Sources */,
 				307C6BE81A78CB0C003F683E /* ASFTableViewPrivateGlobals.m in Sources */,
 				301BFA1D1A7A50C40086FA83 /* PSTCollectionView.m in Sources */,
 				301BFA391A7A50C40086FA83 /* UIImageView+WebCache.m in Sources */,
@@ -1051,6 +1127,7 @@
 				307C6BE91A78CB0C003F683E /* ASFTableViewPublicGlobals.m in Sources */,
 				30A6B1661A7B793A009640C9 /* MapView.m in Sources */,
 				301BFA341A7A50C40086FA83 /* UIButton+WebCache.m in Sources */,
+				3080A03E1ADB5C40003D6270 /* Reachability.m in Sources */,
 				301BFA1E1A7A50C40086FA83 /* PSTCollectionViewCell.m in Sources */,
 				301BFA331A7A50C40086FA83 /* SDWebImagePrefetcher.m in Sources */,
 				307C6BE61A78CB0C003F683E /* ASFTableView.m in Sources */,
@@ -1078,6 +1155,7 @@
 				846ED8281AA0C36C0094E88D /* AFURLRequestSerialization.m in Sources */,
 				301BFA3A1A7A50C40086FA83 /* UIView+WebCacheOperation.m in Sources */,
 				846ED8251AA0C36C0094E88D /* AFNetworkReachabilityManager.m in Sources */,
+				30AADC741ADBBF6B0055454D /* MenuTableViewController.m in Sources */,
 				301BFA1C1A7A50C40086FA83 /* NSIndexPath+PSTCollectionViewAdditions.m in Sources */,
 				84728BC11A6FEDFE00DECEB1 /* main.m in Sources */,
 				301BFA181A7A50C40086FA83 /* MWCaptionView.m in Sources */,
@@ -1104,10 +1182,21 @@
 /* Begin PBXTargetDependency section */
 		84728BD61A6FEDFE00DECEB1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 84728BBA1A6FEDFE00DECEB1 /* VietCourier */;
+			target = 84728BBA1A6FEDFE00DECEB1 /* ShipMe */;
 			targetProxy = 84728BD51A6FEDFE00DECEB1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30AADC6C1ADB7A760055454D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30AADC6D1ADB7A760055454D /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		84728BDC1A6FEDFE00DECEB1 /* Debug */ = {
@@ -1233,13 +1322,19 @@
 					framework,
 					"$(PROJECT_DIR)/VietCourier/Utilities/GoogleMaps",
 					framework,
+					"$(PROJECT_DIR)/VietCourier/Utilities/GoogleMaps",
+					framework,
+					"$(PROJECT_DIR)/VietCourier/Utilities/GoogleMaps",
+					framework,
+					"$(PROJECT_DIR)/VietCourier/Utilities/GoogleMaps",
+					framework,
 				);
-				GCC_PREFIX_HEADER = "VietCourier/VietCourier-Prefix.pch";
+				GCC_PREFIX_HEADER = "VietCourier/ShipMe-Prefix.pch";
 				INFOPLIST_FILE = VietCourier/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = VietCourier;
+				PRODUCT_NAME = ShipMe;
 			};
 			name = Debug;
 		};
@@ -1288,13 +1383,19 @@
 					framework,
 					"$(PROJECT_DIR)/VietCourier/Utilities/GoogleMaps",
 					framework,
+					"$(PROJECT_DIR)/VietCourier/Utilities/GoogleMaps",
+					framework,
+					"$(PROJECT_DIR)/VietCourier/Utilities/GoogleMaps",
+					framework,
+					"$(PROJECT_DIR)/VietCourier/Utilities/GoogleMaps",
+					framework,
 				);
-				GCC_PREFIX_HEADER = "VietCourier/VietCourier-Prefix.pch";
+				GCC_PREFIX_HEADER = "VietCourier/ShipMe-Prefix.pch";
 				INFOPLIST_FILE = VietCourier/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = VietCourier;
+				PRODUCT_NAME = ShipMe;
 			};
 			name = Release;
 		};
@@ -1312,7 +1413,7 @@
 				);
 				INFOPLIST_FILE = VietCourierTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = VietCourierTests;
+				PRODUCT_NAME = ShipMeTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VietCourier.app/VietCourier";
 			};
 			name = Debug;
@@ -1327,7 +1428,7 @@
 				);
 				INFOPLIST_FILE = VietCourierTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = VietCourierTests;
+				PRODUCT_NAME = ShipMeTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VietCourier.app/VietCourier";
 			};
 			name = Release;
@@ -1335,7 +1436,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		84728BB61A6FEDFE00DECEB1 /* Build configuration list for PBXProject "VietCourier" */ = {
+		84728BB61A6FEDFE00DECEB1 /* Build configuration list for PBXProject "ShipMe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84728BDC1A6FEDFE00DECEB1 /* Debug */,
@@ -1344,7 +1445,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84728BDE1A6FEDFE00DECEB1 /* Build configuration list for PBXNativeTarget "VietCourier" */ = {
+		84728BDE1A6FEDFE00DECEB1 /* Build configuration list for PBXNativeTarget "ShipMe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84728BDF1A6FEDFE00DECEB1 /* Debug */,
@@ -1353,7 +1454,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84728BE11A6FEDFE00DECEB1 /* Build configuration list for PBXNativeTarget "VietCourierTests" */ = {
+		84728BE11A6FEDFE00DECEB1 /* Build configuration list for PBXNativeTarget "ShipMeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84728BE21A6FEDFE00DECEB1 /* Debug */,

@@ -33,12 +33,12 @@
     // Dispose of any resources that can be recreated.
 }
 - (void)viewDidLayoutSubviews {
-    self.mapView.frame = self.viewForMap.frame;
+    CGRect tableFrame = self.viewForMap.frame;
+    tableFrame.origin.y = 0;
+    self.mapView.frame = tableFrame;
 }
 #pragma MTStackViewControllerDelegate
-
-
 - (IBAction)submitButtonMenuLeft:(id)sender {
-    
+    [[AppDelegate shareAppDelegate].stackViewController toggleLeftViewController];
 }
 @end

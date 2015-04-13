@@ -1,0 +1,59 @@
+/* 
+  Localizable.strings
+  PriceShare
+
+  Created by SonNV on 3/12/15.
+  Copyright (c) 2015 Kloon. All rights reserved.
+*/
+
+"lblTitleOffer" = "Offer";
+"lblFilterList" = "Category";
+"textButtonCancel" = "Cancel";
+"textButtonDone" = "Done";
+"textButtonOK" = "OK";
+
+"mess_FailConnectToServer" = "Failed to connect to server";
+"mess_CanNotConnectInternet" = "Can not connect internet";
+"text_offer" = "offers";
+
+//Add Offer
+"lblTitleAddOffer" = "Add Offer";
+"textLabelOfferName" = " enter offer name";
+"textLabelAddress" = " address";
+"textLabelPhotoGallery" = " Photo Gallery:";
+"textLabelCategory" = " Category:";
+"textLabelAvailableUntil" = " Available Until:";
+"textLabelDescription" = " Description:";
+"textLabelAvailableUntilValue" = "yyyy-MM-dd hh:mm:ss a";
+"textLabelNameEdit" = " Offer Name";
+"textLabelDescriptionEdit" = " Description";
+"mess_failnameoffer" = "Name is required or max 255 characters";
+"mess_failaddress" = "Address is required";
+"mess_failcategory" = "Category is required";
+"mess_failavailableuntil" = "Available Time must be later than current time";
+"mess_faildescription" = "Description is required";
+"mess_addofersuccess" = "Your offer has been added successfully!";
+// Edit Offer
+"lblTitleEditOffer" = "Edit Offer";
+"mess_editOfferSuccess" = "Your offer has been updated successfully!";
+// ofer Detail
+"lblTitleOfferDetail" = "Offer Detail";
+"titleShareSocial" = "Share social";
+"textShareTwitter" = "Twitter";
+"textShareFacebook" = "Facebook";
+
+//Photos
+"lblTitlePhotoManager" = "Photos";
+"textTitleActionSheetAddPhoto" = "Please select on option";
+"textTitleButtonAddFromLibrary" = "Add from library";
+"textTitleButtonTakePhoto" = "Take photo";
+"textTitleButtonSave " = "Save";
+"mess_usecamerafail " = "Test on real device, camera is not available in simulator";
+"mess_deletephoto" = "Are you sure delete this photo?";
+"mess_retryaddoffer" = "Your offer is added but some info is missing. Please try to submit again";
+
+//ThumbPhoto
+"lblTitleThumbPhoto" = "Photos";
+
+"mess_delete_offer" = "Are you sure delete offer ";
+"mess_pull_down_to_refresh" = "No data is currently available. Please pull down to refresh";

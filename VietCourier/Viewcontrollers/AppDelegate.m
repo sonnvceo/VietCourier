@@ -13,13 +13,17 @@
 #import "CommodityViewController.h"
 #import "ProfileCustomerViewController.h"
 #import "MainViewController.h"
+#import "AddressBookViewController.h"
+#import "MenuTableViewController.h"
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
 
-
++ (AppDelegate *)shareAppDelegate {
+    return (AppDelegate*)[[UIApplication sharedApplication] delegate];
+}
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     [GMSServices provideAPIKey:kGoogleAPIKey];
@@ -31,18 +35,21 @@
     ProfileCustomerViewController *profileCustomerViewController = [[ProfileCustomerViewController alloc] initWithNibName:@"ProfileCustomerViewController" bundle:nil];
     MainViewController *mainViewController = [[MainViewController alloc] initWithNibName:@"MainViewController" bundle:nil];
     
+    AddressBookViewController *addressBookViewController = [[AddressBookViewController alloc] initWithNibName:@"AddressBookViewController" bundle:nil];
+    MenuTableViewController *menuTableViewController = [[MenuTableViewController alloc] initWithNibName:@"MenuTableViewController" bundle:nil];
+    
     menu = [[Menu alloc] initWithStyle:UITableViewStylePlain];
     
     UINavigationController *contentNavigationController = [[UINavigationController alloc]
                                                            initWithRootViewController:mainViewController];
     contentNavigationController.navigationBar.hidden = YES;
     //
-    stackViewController = [[MTStackViewController alloc] initWithNibName:nil bundle:nil];
-    [stackViewController setAnimationDurationProportionalToPosition:YES];
-    [stackViewController setLeftViewController:menu];
-    [stackViewController setContentViewController:contentNavigationController];
+    _stackViewController = [[MTStackViewController alloc] initWithNibName:nil bundle:nil];
+    [_stackViewController setAnimationDurationProportionalToPosition:YES];
+    [_stackViewController setLeftViewController:menuTableViewController];
+    [_stackViewController setContentViewController:contentNavigationController];
     //
-    self.window.rootViewController = stackViewController;
+    self.window.rootViewController = _stackViewController;
     
     [self.window makeKeyAndVisible];
     return YES;
