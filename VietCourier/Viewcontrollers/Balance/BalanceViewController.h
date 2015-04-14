@@ -1,15 +1,13 @@
 //
-//  ViewController.h
-//  Balance
+//  MenuTableViewController.h
+//  ShipMe
 //
-//  Created by SonNV on 1/28/15.
-//  Copyright (c) 2015 SonNV. All rights reserved.
+//  Created by SonNV on 4/13/15.
+//  Copyright (c) 2015 VietCourier. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
-#import "ASFTableView.h"
-@interface BalanceViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet ASFTableView *mASFTableView;
+@interface BalanceViewController : UITableViewController
 
 @end

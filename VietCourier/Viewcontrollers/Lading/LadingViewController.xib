@@ -7,7 +7,6 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LadingViewController">
             <connections>
-                <outlet property="tableViewLading" destination="q1W-Jb-Aip" id="Fes-oI-PV2"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -16,26 +15,80 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="64" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="q1W-Jb-Aip">
-                    <rect key="frame" x="0.0" y="44" width="320" height="400"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    <connections>
-                        <outlet property="dataSource" destination="-1" id="oVY-cQ-OBb"/>
-                        <outlet property="delegate" destination="-1" id="NK3-Rf-ps0"/>
-                    </connections>
-                </tableView>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QQa-qR-yxX">
-                    <rect key="frame" x="90" y="442" width="119" height="30"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s21-4b-7Tc">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+                    <color key="backgroundColor" red="0.98823529409999999" green="0.68627450980000004" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="320" id="GmE-c3-3im"/>
+                        <constraint firstAttribute="height" constant="64" id="mv5-eg-owF"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KwR-6y-0Kq">
+                    <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vận đơn" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AdE-Er-Qfq">
+                            <rect key="frame" x="100" y="11" width="120" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="120" id="8n7-aL-vl9"/>
+                                <constraint firstAttribute="height" constant="21" id="GBl-DA-GEX"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ITN-uF-80L">
+                            <rect key="frame" x="280" y="7" width="30" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="30" id="Htw-jS-EFT"/>
+                                <constraint firstAttribute="height" constant="30" id="L88-Z9-tu6"/>
+                            </constraints>
+                            <state key="normal" image="ico_acc">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.98823529409999999" green="0.68627450980000004" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="ITN-uF-80L" secondAttribute="trailing" constant="10" id="ENh-V3-ePw"/>
+                        <constraint firstAttribute="width" constant="320" id="JBe-eP-jzG"/>
+                        <constraint firstAttribute="centerY" secondItem="AdE-Er-Qfq" secondAttribute="centerY" constant="0.5" id="Tyo-Tj-xmd"/>
+                        <constraint firstAttribute="centerX" secondItem="AdE-Er-Qfq" secondAttribute="centerX" id="bfh-c6-hgx"/>
+                        <constraint firstAttribute="centerY" secondItem="ITN-uF-80L" secondAttribute="centerY" id="feV-9S-Hw8"/>
+                        <constraint firstAttribute="height" constant="44" id="yrf-P6-PlO"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QQa-qR-yxX">
+                    <rect key="frame" x="10" y="436" width="300" height="40"/>
+                    <color key="backgroundColor" red="0.98039215686274506" green="0.62745098039215685" blue="0.19607843137254902" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="9Mi-nV-o13"/>
+                        <constraint firstAttribute="width" constant="300" id="MH4-af-0Yv"/>
+                    </constraints>
                     <state key="normal" title="Tạo vận đơn mới">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                 </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="QQa-qR-yxX" secondAttribute="bottom" constant="4" id="3AB-hg-mzg"/>
+                <constraint firstItem="KwR-6y-0Kq" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="CfJ-q6-Tw0"/>
+                <constraint firstItem="s21-4b-7Tc" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="EJp-Ki-2yj"/>
+                <constraint firstAttribute="trailing" secondItem="KwR-6y-0Kq" secondAttribute="trailing" id="JDg-eS-5RY"/>
+                <constraint firstAttribute="trailing" secondItem="s21-4b-7Tc" secondAttribute="trailing" id="L4D-iT-xNL"/>
+                <constraint firstItem="s21-4b-7Tc" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="LOv-g7-adE"/>
+                <constraint firstItem="QQa-qR-yxX" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="WXk-St-w3B"/>
+                <constraint firstItem="KwR-6y-0Kq" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Ych-GB-DoD"/>
+                <constraint firstAttribute="trailing" secondItem="QQa-qR-yxX" secondAttribute="trailing" constant="10" id="zOP-gX-cBQ"/>
+            </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
             <point key="canvasLocation" x="304" y="269"/>
         </view>
     </objects>
+    <resources>
+        <image name="ico_acc" width="30" height="30"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

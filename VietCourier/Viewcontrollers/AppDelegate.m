@@ -15,6 +15,7 @@
 #import "MainViewController.h"
 #import "AddressBookViewController.h"
 #import "MenuTableViewController.h"
+#import "CourierProfileViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -37,6 +38,8 @@
     
     AddressBookViewController *addressBookViewController = [[AddressBookViewController alloc] initWithNibName:@"AddressBookViewController" bundle:nil];
     MenuTableViewController *menuTableViewController = [[MenuTableViewController alloc] initWithNibName:@"MenuTableViewController" bundle:nil];
+    
+     CourierProfileViewController *courierProfileViewController = [[CourierProfileViewController alloc] initWithNibName:@"CourierProfileViewController" bundle:nil];
     
     menu = [[Menu alloc] initWithStyle:UITableViewStylePlain];
     

@@ -9,6 +9,7 @@
 #import "MenuTableViewController.h"
 #import "MenuTableCell.h"
 #import "AddressBookViewController.h"
+#import "LadingViewController.h"
 @interface MenuTableViewController ()
 
 @end
@@ -197,11 +198,12 @@
 // In a xib-based application, navigation from a table can be handled in -tableView:didSelectRowAtIndexPath:
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     AddressBookViewController *addressBookViewController = [[AddressBookViewController alloc] initWithNibName:@"AddressBookViewController" bundle:nil];
+    LadingViewController *ladingViewController = [[LadingViewController alloc] initWithNibName:@"LadingViewController" bundle:nil];
     switch (indexPath.section) {
         case 0:
             switch (indexPath.row ) {
                 case 0: {
-                    
+                    [[AppDelegate shareAppDelegate].stackViewController setContentViewController:ladingViewController];
                     break ;
                 }
                 case 1: {

@@ -84,8 +84,6 @@
 		307C6BE71A78CB0C003F683E /* ASFTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 307C6BE01A78CB0C003F683E /* ASFTableViewCell.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		307C6BE81A78CB0C003F683E /* ASFTableViewPrivateGlobals.m in Sources */ = {isa = PBXBuildFile; fileRef = 307C6BE21A78CB0C003F683E /* ASFTableViewPrivateGlobals.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		307C6BE91A78CB0C003F683E /* ASFTableViewPublicGlobals.m in Sources */ = {isa = PBXBuildFile; fileRef = 307C6BE41A78CB0C003F683E /* ASFTableViewPublicGlobals.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		307C6BEF1A78CC15003F683E /* BalanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 307C6BED1A78CC15003F683E /* BalanceViewController.m */; };
-		307C6BF01A78CC15003F683E /* BalanceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 307C6BEE1A78CC15003F683E /* BalanceViewController.xib */; };
 		3080A03E1ADB5C40003D6270 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3080A03D1ADB5C40003D6270 /* Reachability.m */; };
 		30A6B15B1A7B74DB009640C9 /* CreateShipmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A6B1591A7B74DB009640C9 /* CreateShipmentViewController.m */; };
 		30A6B15C1A7B74DB009640C9 /* CreateShipmentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30A6B15A1A7B74DB009640C9 /* CreateShipmentViewController.xib */; };
@@ -107,7 +105,6 @@
 		30AADC671ADB61220055454D /* AddressBookViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30AADC651ADB61220055454D /* AddressBookViewController.xib */; };
 		30AADC6A1ADB644A0055454D /* AddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 30AADC691ADB644A0055454D /* AddressBook.m */; };
 		30AADC6E1ADB7A760055454D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30AADC6C1ADB7A760055454D /* Localizable.strings */; };
-		30AADC6F1ADB80600055454D /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A6B1891A7B8E7C009640C9 /* GoogleMaps.framework */; };
 		30AADC741ADBBF6B0055454D /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30AADC721ADBBF6B0055454D /* MenuTableViewController.m */; };
 		30AADC751ADBBF6B0055454D /* MenuTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30AADC731ADBBF6B0055454D /* MenuTableViewController.xib */; };
 		30AADC791ADBC33B0055454D /* MenuTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 30AADC771ADBC33B0055454D /* MenuTableCell.m */; };
@@ -141,11 +138,18 @@
 		84728C491A6FF85600DECEB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84728C391A6FF7A800DECEB1 /* Foundation.framework */; };
 		84728C4E1A6FF8EF00DECEB1 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84728C4C1A6FF8EF00DECEB1 /* SignUpViewController.m */; };
 		84728C4F1A6FF8EF00DECEB1 /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84728C4D1A6FF8EF00DECEB1 /* SignUpViewController.xib */; };
+		8475C2541ADD5F540040D0B0 /* CourierProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8475C2521ADD5F540040D0B0 /* CourierProfileViewController.m */; };
+		8475C2551ADD5F540040D0B0 /* CourierProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8475C2531ADD5F540040D0B0 /* CourierProfileViewController.xib */; };
+		8475C2561ADD5FE90040D0B0 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A6B1891A7B8E7C009640C9 /* GoogleMaps.framework */; };
 		84A594581A825C1D00ED5AC3 /* LadingTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A594531A825C1D00ED5AC3 /* LadingTableCell.m */; };
 		84A594591A825C1D00ED5AC3 /* LadingTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A594541A825C1D00ED5AC3 /* LadingTableCell.xib */; };
 		84A5945A1A825C1D00ED5AC3 /* LadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A594561A825C1D00ED5AC3 /* LadingViewController.m */; };
 		84A5945B1A825C1D00ED5AC3 /* LadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A594571A825C1D00ED5AC3 /* LadingViewController.xib */; };
 		84A9B6491A7A7FD300AB37D3 /* MTStackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A9B6481A7A7FD300AB37D3 /* MTStackViewController.m */; };
+		84B663AC1ADBFFA400A36919 /* BalanceTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B663A71ADBFFA400A36919 /* BalanceTableCell.m */; };
+		84B663AD1ADBFFA400A36919 /* BalanceTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B663A81ADBFFA400A36919 /* BalanceTableCell.xib */; };
+		84B663AE1ADBFFA400A36919 /* BalanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B663AA1ADBFFA400A36919 /* BalanceViewController.m */; };
+		84B663AF1ADBFFA400A36919 /* BalanceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B663AB1ADBFFA400A36919 /* BalanceViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -289,9 +293,6 @@
 		307C6BE21A78CB0C003F683E /* ASFTableViewPrivateGlobals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASFTableViewPrivateGlobals.m; sourceTree = "<group>"; };
 		307C6BE31A78CB0C003F683E /* ASFTableViewPublicGlobals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASFTableViewPublicGlobals.h; sourceTree = "<group>"; };
 		307C6BE41A78CB0C003F683E /* ASFTableViewPublicGlobals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASFTableViewPublicGlobals.m; sourceTree = "<group>"; };
-		307C6BEC1A78CC15003F683E /* BalanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BalanceViewController.h; sourceTree = "<group>"; };
-		307C6BED1A78CC15003F683E /* BalanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BalanceViewController.m; sourceTree = "<group>"; };
-		307C6BEE1A78CC15003F683E /* BalanceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BalanceViewController.xib; sourceTree = "<group>"; };
 		3080A03C1ADB5C40003D6270 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		3080A03D1ADB5C40003D6270 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		30A6B1581A7B74DB009640C9 /* CreateShipmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateShipmentViewController.h; sourceTree = "<group>"; };
@@ -376,6 +377,9 @@
 		84728C4B1A6FF8EF00DECEB1 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
 		84728C4C1A6FF8EF00DECEB1 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
 		84728C4D1A6FF8EF00DECEB1 /* SignUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
+		8475C2511ADD5F540040D0B0 /* CourierProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourierProfileViewController.h; sourceTree = "<group>"; };
+		8475C2521ADD5F540040D0B0 /* CourierProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourierProfileViewController.m; sourceTree = "<group>"; };
+		8475C2531ADD5F540040D0B0 /* CourierProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CourierProfileViewController.xib; sourceTree = "<group>"; };
 		84A594521A825C1D00ED5AC3 /* LadingTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LadingTableCell.h; sourceTree = "<group>"; };
 		84A594531A825C1D00ED5AC3 /* LadingTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LadingTableCell.m; sourceTree = "<group>"; };
 		84A594541A825C1D00ED5AC3 /* LadingTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LadingTableCell.xib; sourceTree = "<group>"; };
@@ -384,6 +388,12 @@
 		84A594571A825C1D00ED5AC3 /* LadingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LadingViewController.xib; sourceTree = "<group>"; };
 		84A9B6471A7A7FD300AB37D3 /* MTStackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTStackViewController.h; sourceTree = "<group>"; };
 		84A9B6481A7A7FD300AB37D3 /* MTStackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTStackViewController.m; sourceTree = "<group>"; };
+		84B663A61ADBFFA400A36919 /* BalanceTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BalanceTableCell.h; sourceTree = "<group>"; };
+		84B663A71ADBFFA400A36919 /* BalanceTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BalanceTableCell.m; sourceTree = "<group>"; };
+		84B663A81ADBFFA400A36919 /* BalanceTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BalanceTableCell.xib; sourceTree = "<group>"; };
+		84B663A91ADBFFA400A36919 /* BalanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BalanceViewController.h; sourceTree = "<group>"; };
+		84B663AA1ADBFFA400A36919 /* BalanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BalanceViewController.m; sourceTree = "<group>"; };
+		84B663AB1ADBFFA400A36919 /* BalanceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BalanceViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -391,7 +401,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30AADC6F1ADB80600055454D /* GoogleMaps.framework in Frameworks */,
+				8475C2561ADD5FE90040D0B0 /* GoogleMaps.framework in Frameworks */,
 				30A6B1821A7B7A8E009640C9 /* SystemConfiguration.framework in Frameworks */,
 				30A6B1801A7B7A86009640C9 /* QuartzCore.framework in Frameworks */,
 				30A6B17E1A7B7A7D009640C9 /* OpenGLES.framework in Frameworks */,
@@ -646,16 +656,6 @@
 			path = ASFTableView;
 			sourceTree = "<group>";
 		};
-		307C6BEB1A78CBEB003F683E /* Balance */ = {
-			isa = PBXGroup;
-			children = (
-				307C6BEC1A78CC15003F683E /* BalanceViewController.h */,
-				307C6BED1A78CC15003F683E /* BalanceViewController.m */,
-				307C6BEE1A78CC15003F683E /* BalanceViewController.xib */,
-			);
-			path = Balance;
-			sourceTree = "<group>";
-		};
 		3080A03B1ADB5C40003D6270 /* Reachability */ = {
 			isa = PBXGroup;
 			children = (
@@ -865,6 +865,8 @@
 		84728C291A6FEFA000DECEB1 /* Viewcontrollers */ = {
 			isa = PBXGroup;
 			children = (
+				8475C2501ADD5F1E0040D0B0 /* CourierProfile */,
+				84B663A51ADBFF9B00A36919 /* Balance */,
 				30AADC701ADBBF4F0055454D /* Menu */,
 				30AADC621ADB60F70055454D /* AddresBook */,
 				840210D11ADAB39D00CA590A /* MainViewController */,
@@ -872,7 +874,6 @@
 				3023D1611A82367700BBF8C2 /* ProfileCustomer */,
 				3023D13F1A81FDCE00BBF8C2 /* Commodity */,
 				30A6B1571A7B74BC009640C9 /* CreateShipment */,
-				307C6BEB1A78CBEB003F683E /* Balance */,
 				84728C311A6FF6E700DECEB1 /* Login */,
 				84728C4A1A6FF8EF00DECEB1 /* SignUp */,
 				84728C2E1A6FF02F00DECEB1 /* AppDelegate.h */,
@@ -929,6 +930,16 @@
 			path = SignUp;
 			sourceTree = "<group>";
 		};
+		8475C2501ADD5F1E0040D0B0 /* CourierProfile */ = {
+			isa = PBXGroup;
+			children = (
+				8475C2511ADD5F540040D0B0 /* CourierProfileViewController.h */,
+				8475C2521ADD5F540040D0B0 /* CourierProfileViewController.m */,
+				8475C2531ADD5F540040D0B0 /* CourierProfileViewController.xib */,
+			);
+			path = CourierProfile;
+			sourceTree = "<group>";
+		};
 		84A594511A825C1D00ED5AC3 /* Lading */ = {
 			isa = PBXGroup;
 			children = (
@@ -949,6 +960,19 @@
 				84A9B6481A7A7FD300AB37D3 /* MTStackViewController.m */,
 			);
 			path = MTStackViewController;
+			sourceTree = "<group>";
+		};
+		84B663A51ADBFF9B00A36919 /* Balance */ = {
+			isa = PBXGroup;
+			children = (
+				84B663A61ADBFFA400A36919 /* BalanceTableCell.h */,
+				84B663A71ADBFFA400A36919 /* BalanceTableCell.m */,
+				84B663A81ADBFFA400A36919 /* BalanceTableCell.xib */,
+				84B663A91ADBFFA400A36919 /* BalanceViewController.h */,
+				84B663AA1ADBFFA400A36919 /* BalanceViewController.m */,
+				84B663AB1ADBFFA400A36919 /* BalanceViewController.xib */,
+			);
+			path = Balance;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1031,6 +1055,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B663AF1ADBFFA400A36919 /* BalanceViewController.xib in Resources */,
 				301BFA641A7A51DC0086FA83 /* photo8t.jpg in Resources */,
 				3023D15D1A82356500BBF8C2 /* restaurant.png in Resources */,
 				301BFA5D1A7A51DC0086FA83 /* photo5.jpg in Resources */,
@@ -1041,6 +1066,7 @@
 				3023D15A1A82356500BBF8C2 /* apple2.png in Resources */,
 				84728C2D1A6FF00000DECEB1 /* LaunchScreen.xib in Resources */,
 				30AADC671ADB61220055454D /* AddressBookViewController.xib in Resources */,
+				8475C2551ADD5F540040D0B0 /* CourierProfileViewController.xib in Resources */,
 				301BFA5F1A7A51DC0086FA83 /* photo6.jpg in Resources */,
 				301BFA5E1A7A51DC0086FA83 /* photo5t.jpg in Resources */,
 				301BFA621A7A51DC0086FA83 /* photo7t.jpg in Resources */,
@@ -1054,13 +1080,13 @@
 				301BFA5B1A7A51DC0086FA83 /* photo4.jpg in Resources */,
 				84728C4F1A6FF8EF00DECEB1 /* SignUpViewController.xib in Resources */,
 				301BFA591A7A51DC0086FA83 /* photo3.jpg in Resources */,
+				84B663AD1ADBFFA400A36919 /* BalanceTableCell.xib in Resources */,
 				3023D15C1A82356500BBF8C2 /* Clothes.png in Resources */,
 				301BFA611A7A51DC0086FA83 /* photo7.jpg in Resources */,
 				3023D1441A81FE2300BBF8C2 /* CommodityViewController.xib in Resources */,
 				301BFA5A1A7A51DC0086FA83 /* photo3t.jpg in Resources */,
 				301BFA581A7A51DC0086FA83 /* photo2t.jpg in Resources */,
 				3023D15B1A82356500BBF8C2 /* applications-other.png in Resources */,
-				307C6BF01A78CC15003F683E /* BalanceViewController.xib in Resources */,
 				301BFA631A7A51DC0086FA83 /* photo8.jpg in Resources */,
 				301BFA601A7A51DC0086FA83 /* photo6t.jpg in Resources */,
 				84A594591A825C1D00ED5AC3 /* LadingTableCell.xib in Resources */,
@@ -1090,7 +1116,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				307C6BEF1A78CC15003F683E /* BalanceViewController.m in Sources */,
 				301BFA141A7A50C40086FA83 /* MWGridCell.m in Sources */,
 				301BFA261A7A50C40086FA83 /* PSTGridLayoutItem.m in Sources */,
 				301BFA271A7A50C40086FA83 /* PSTGridLayoutRow.m in Sources */,
@@ -1113,7 +1138,9 @@
 				84728C1D1A6FEF0300DECEB1 /* DefinitionAPI.m in Sources */,
 				307C6BE71A78CB0C003F683E /* ASFTableViewCell.m in Sources */,
 				301BFA381A7A50C40086FA83 /* UIImageView+HighlightedWebCache.m in Sources */,
+				84B663AE1ADBFFA400A36919 /* BalanceViewController.m in Sources */,
 				846ED8231AA0C36C0094E88D /* AFHTTPRequestOperationManager.m in Sources */,
+				84B663AC1ADBFFA400A36919 /* BalanceTableCell.m in Sources */,
 				846ED8271AA0C36C0094E88D /* AFURLConnectionOperation.m in Sources */,
 				301BFA2C1A7A50C40086FA83 /* NSData+ImageContentType.m in Sources */,
 				30AADC661ADB61220055454D /* AddressBookViewController.m in Sources */,
@@ -1142,6 +1169,7 @@
 				301BFA151A7A50C40086FA83 /* MWTapDetectingImageView.m in Sources */,
 				846ED82A1AA0C36C0094E88D /* AFURLSessionManager.m in Sources */,
 				301BFA201A7A50C40086FA83 /* PSTCollectionViewData.m in Sources */,
+				8475C2541ADD5F540040D0B0 /* CourierProfileViewController.m in Sources */,
 				846ED8291AA0C36C0094E88D /* AFURLResponseSerialization.m in Sources */,
 				840D29691ADA5EC6009A4745 /* ModelDefine.m in Sources */,
 				301BFA131A7A50C40086FA83 /* DACircularProgressView.m in Sources */,
@@ -1328,6 +1356,10 @@
 					framework,
 					"$(PROJECT_DIR)/VietCourier/Utilities/GoogleMaps",
 					framework,
+					"$(PROJECT_DIR)/VietCourier/Utilities/GoogleMaps",
+					framework,
+					"$(PROJECT_DIR)/VietCourier/Utilities/GoogleMaps",
+					framework,
 				);
 				GCC_PREFIX_HEADER = "VietCourier/ShipMe-Prefix.pch";
 				INFOPLIST_FILE = VietCourier/Info.plist;
@@ -1349,6 +1381,10 @@
 					"$(PROJECT_DIR)/VietCourier/Utilities/GoogleMaps",
 					framework,
 					"$(PROJECT_DIR)/VietCourier/Resources",
+					"$(PROJECT_DIR)/VietCourier/Utilities/GoogleMaps",
+					framework,
+					"$(PROJECT_DIR)/VietCourier/Utilities/GoogleMaps",
+					framework,
 					"$(PROJECT_DIR)/VietCourier/Utilities/GoogleMaps",
 					framework,
 					"$(PROJECT_DIR)/VietCourier/Utilities/GoogleMaps",
