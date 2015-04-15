@@ -21,7 +21,12 @@
 
 #define IS_IPHONE6 ([[UIScreen mainScreen] respondsToSelector:@selector(nativeBounds)] && fabs( ( double )[ [ UIScreen mainScreen ] nativeBounds ].size.height - ( double )1334 ) < DBL_EPSILON )
 #define IS_IPHONE6_PLUS ([[UIScreen mainScreen] respondsToSelector:@selector(nativeBounds)] && fabs( ( double )[ [ UIScreen mainScreen ] nativeBounds ].size.height - ( double )2208 ) < DBL_EPSILON )
-
+//
+#define SHOW_ALERT(title,msg,del,cancel,other) \
+do { \
+UIAlertView *_alert = [[UIAlertView alloc] initWithTitle:title message:msg delegate:del cancelButtonTitle:cancel otherButtonTitles:other,nil]; \
+[_alert show]; \
+} while(0);
 /*
 #pragma API
 #define URL_BASE @"http://www.clubbersapptoibiza.com/api/"

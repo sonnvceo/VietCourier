@@ -13,7 +13,7 @@
 #import "CommodityViewController.h"
 #import "ProfileCustomerViewController.h"
 #import "MainViewController.h"
-#import "AddressBookViewController.h"
+#import "AddressBookDetailViewController.h"
 #import "MenuTableViewController.h"
 #import "CourierProfileViewController.h"
 @interface AppDelegate ()
@@ -21,6 +21,7 @@
 @end
 
 @implementation AppDelegate
+@synthesize networkRequestManager = _networkRequestManager;
 
 + (AppDelegate *)shareAppDelegate {
     return (AppDelegate*)[[UIApplication sharedApplication] delegate];
@@ -29,6 +30,7 @@
     // Override point for customization after application launch.
     [GMSServices provideAPIKey:kGoogleAPIKey];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    _networkRequestManager = [NetworkRequestManager shareInstance];
     CommodityViewController *commodityViewController = [[CommodityViewController alloc] initWithNibName:@"CommodityViewController" bundle:nil];
     CreateShipmentViewController *createShipmentViewController = [[CreateShipmentViewController alloc] initWithNibName:@"CreateShipmentViewController" bundle:nil];
     
@@ -36,7 +38,7 @@
     ProfileCustomerViewController *profileCustomerViewController = [[ProfileCustomerViewController alloc] initWithNibName:@"ProfileCustomerViewController" bundle:nil];
     MainViewController *mainViewController = [[MainViewController alloc] initWithNibName:@"MainViewController" bundle:nil];
     
-    AddressBookViewController *addressBookViewController = [[AddressBookViewController alloc] initWithNibName:@"AddressBookViewController" bundle:nil];
+    AddressBookDetailViewController *addressBookViewController = [[AddressBookDetailViewController alloc] initWithNibName:@"AddressBookDetailViewController" bundle:nil];
     MenuTableViewController *menuTableViewController = [[MenuTableViewController alloc] initWithNibName:@"MenuTableViewController" bundle:nil];
     
      CourierProfileViewController *courierProfileViewController = [[CourierProfileViewController alloc] initWithNibName:@"CourierProfileViewController" bundle:nil];
@@ -53,11 +55,31 @@
     [_stackViewController setContentViewController:contentNavigationController];
     //
     self.window.rootViewController = _stackViewController;
-    
+    _internetReach = [Reachability reachabilityForInternetConnection];
+    [[NSNotificationCenter defaultCenter] addObserver: self selector: @selector(reachabilityChanged:) name: kReachabilityChangedNotification object: nil];
+    [_internetReach startNotifier];
+
     [self.window makeKeyAndVisible];
     return YES;
 }
-
+- (void) reachabilityChanged: (NSNotification* )note {
+    Reachability* curReach = [note object];
+    NSParameterAssert([curReach isKindOfClass: [Reachability class]]);
+    NetworkStatus netStatus = [curReach currentReachabilityStatus];
+    switch (netStatus) {
+        case ReachableViaWWAN: {
+            break;
+        }
+        case ReachableViaWiFi: {
+            break;
+        }
+        case NotReachable: {
+            SHOW_ALERT(@"", NSLocalizedString(@"mess_CanNotConnectInternet", @""), nil, @"OK", nil);
+            break;
+        }
+    }
+    
+}
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.

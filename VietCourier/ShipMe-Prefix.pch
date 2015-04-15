@@ -13,4 +13,5 @@
 #import "MBProgressHUD.h"
 #import "AFNetworking.h"
 #import "AppDelegate.h"
+#import "DefinitionAPI.h"
 #endif

@@ -19,4 +19,6 @@
 @property (strong, nonatomic) IBOutlet UIView *BottomBarView;
 @property (nonatomic, strong) IBOutlet GMSMapView *mapView;
 @property (nonatomic, strong) IBOutlet GMSCameraPosition *camera;
+@property (nonatomic, retain) CLLocationManager *locationManager;
+- (IBAction)submitButtonShipNow:(id)sender;
 @end
