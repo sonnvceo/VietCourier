@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CommodityViewController">
@@ -32,9 +32,12 @@
                                 <constraint firstAttribute="width" constant="30" id="Ijs-dJ-FJZ"/>
                                 <constraint firstAttribute="height" constant="30" id="xds-RU-Q6P"/>
                             </constraints>
-                            <state key="normal" image="ico_menu">
+                            <state key="normal" image="btn_back">
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
+                            <connections>
+                                <action selector="submitButtonBack:" destination="-1" eventType="touchUpInside" id="KgA-AF-xgl"/>
+                            </connections>
                         </button>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hàng hoá" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IU3-PO-cBy">
                             <rect key="frame" x="100" y="11" width="120" height="21"/>
@@ -52,9 +55,12 @@
                                 <constraint firstAttribute="height" constant="30" id="cda-42-faY"/>
                                 <constraint firstAttribute="width" constant="30" id="fO9-uO-bL4"/>
                             </constraints>
-                            <state key="normal" image="ico_acc">
+                            <state key="normal" image="btn_cancel">
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
+                            <connections>
+                                <action selector="submitButtonCancel:" destination="-1" eventType="touchUpInside" id="hFq-ra-Olm"/>
+                            </connections>
                         </button>
                     </subviews>
                     <color key="backgroundColor" red="0.98823529409999999" green="0.68627450980000004" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -69,30 +75,6 @@
                         <constraint firstItem="ufR-WZ-yAQ" firstAttribute="leading" secondItem="7JI-74-ysK" secondAttribute="leading" constant="10" id="tlp-vP-Oto"/>
                     </constraints>
                 </view>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6mv-us-WWa">
-                    <rect key="frame" x="0.0" y="64" width="320" height="80"/>
-                    <state key="normal" image="cosmetics.png">
-                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                    </state>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DCT-vO-JJh">
-                    <rect key="frame" x="0.0" y="144" width="320" height="80"/>
-                    <state key="normal" image="clothes.png">
-                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                    </state>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fa3-RW-RtS">
-                    <rect key="frame" x="0.0" y="224" width="320" height="80"/>
-                    <state key="normal" image="food.png">
-                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                    </state>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bb3-Me-spv">
-                    <rect key="frame" x="0.0" y="303" width="320" height="80"/>
-                    <state key="normal" image="food.png">
-                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                    </state>
-                </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
@@ -104,15 +86,12 @@
                 <constraint firstAttribute="trailing" secondItem="7JI-74-ysK" secondAttribute="trailing" id="xSp-WY-ZBM"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="260" y="384"/>
+            <point key="canvasLocation" x="165" y="384"/>
         </view>
     </objects>
     <resources>
-        <image name="clothes.png" width="640" height="250"/>
-        <image name="cosmetics.png" width="640" height="250"/>
-        <image name="food.png" width="640" height="250"/>
-        <image name="ico_acc" width="30" height="30"/>
-        <image name="ico_menu" width="30" height="30"/>
+        <image name="btn_back" width="30" height="30"/>
+        <image name="btn_cancel" width="30" height="30"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

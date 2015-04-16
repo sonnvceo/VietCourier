@@ -10,4 +10,12 @@
 
 @interface CommodityViewController : UIViewController
 
+@property(nonatomic, strong) IBOutlet UIButton *buttonCosmetics;
+@property(nonatomic, strong) IBOutlet UIButton *buttonClothers;
+@property(nonatomic, strong) IBOutlet UIButton *buttonFood;
+@property(nonatomic, strong) IBOutlet UIButton *buttonShoes;
+@property(nonatomic, strong) IBOutlet UIButton *buttonOthers;
+- (IBAction)submitButtonBack:(id)sender;
+- (IBAction)submitButtonCancel:(id)sender;
+- (IBAction)submitswicthcButtonsCommondity:(id)sender;
 @end

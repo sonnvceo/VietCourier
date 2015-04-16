@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		301A0C291ADFB7E1004677C8 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F9EA9C1ADEA8AB005B620E /* GoogleMaps.framework */; };
 		301BFA131A7A50C40086FA83 /* DACircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 301BF9BB1A7A50C40086FA83 /* DACircularProgressView.m */; };
 		301BFA141A7A50C40086FA83 /* MWGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 301BF9BE1A7A50C40086FA83 /* MWGridCell.m */; };
 		301BFA151A7A50C40086FA83 /* MWTapDetectingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 301BF9C01A7A50C40086FA83 /* MWTapDetectingImageView.m */; };
@@ -144,7 +145,6 @@
 		84B663AD1ADBFFA400A36919 /* BalanceTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B663A81ADBFFA400A36919 /* BalanceTableCell.xib */; };
 		84B663AE1ADBFFA400A36919 /* BalanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B663AA1ADBFFA400A36919 /* BalanceViewController.m */; };
 		84B663AF1ADBFFA400A36919 /* BalanceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B663AB1ADBFFA400A36919 /* BalanceViewController.xib */; };
-		84F9EA9D1ADEA8AB005B620E /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F9EA9C1ADEA8AB005B620E /* GoogleMaps.framework */; };
 		84F9EA9F1ADEA989005B620E /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 84F9EA9E1ADEA989005B620E /* GoogleMaps.bundle */; };
 		84F9EAA61ADEAE36005B620E /* clothes.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9EAA11ADEAE36005B620E /* clothes.png */; };
 		84F9EAA71ADEAE36005B620E /* cosmetics.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9EAA21ADEAE36005B620E /* cosmetics.png */; };
@@ -405,7 +405,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84F9EA9D1ADEA8AB005B620E /* GoogleMaps.framework in Frameworks */,
+				301A0C291ADFB7E1004677C8 /* GoogleMaps.framework in Frameworks */,
 				30A6B1721A7B7A39009640C9 /* CoreLocation.framework in Frameworks */,
 				30A6B1821A7B7A8E009640C9 /* SystemConfiguration.framework in Frameworks */,
 				30A6B1801A7B7A86009640C9 /* QuartzCore.framework in Frameworks */,
@@ -1396,6 +1396,10 @@
 					framework,
 					"$(PROJECT_DIR)/VietCourier/Utilities/GoogleMaps",
 					framework,
+					"$(PROJECT_DIR)/VietCourier/Utilities/GoogleMaps",
+					framework,
+					"$(PROJECT_DIR)/VietCourier/Utilities/GoogleMaps",
+					framework,
 				);
 				GCC_PREFIX_HEADER = "VietCourier/ShipMe-Prefix.pch";
 				INFOPLIST_FILE = VietCourier/Info.plist;
@@ -1417,6 +1421,10 @@
 					"$(PROJECT_DIR)/VietCourier/Utilities/GoogleMaps",
 					framework,
 					"$(PROJECT_DIR)/VietCourier/Resources",
+					"$(PROJECT_DIR)/VietCourier/Utilities/GoogleMaps",
+					framework,
+					"$(PROJECT_DIR)/VietCourier/Utilities/GoogleMaps",
+					framework,
 					"$(PROJECT_DIR)/VietCourier/Utilities/GoogleMaps",
 					framework,
 					"$(PROJECT_DIR)/VietCourier/Utilities/GoogleMaps",

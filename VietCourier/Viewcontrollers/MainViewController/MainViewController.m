@@ -7,7 +7,7 @@
 //
 
 #import "MainViewController.h"
-
+#import "CommodityViewController.h"
 @interface MainViewController ()
 
 @end
@@ -24,8 +24,6 @@
     self.mapView = [GMSMapView mapWithFrame:_viewForMap.bounds camera:_camera];
     self.mapView.delegate = self;
     [self.viewForMap addSubview:_mapView];
-//    self.TopBarView.hidden = YES;
-//    self.BottomBarView.hidden = YES;
 }
 - (void) viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
@@ -55,6 +53,7 @@
     [[AppDelegate shareAppDelegate].stackViewController toggleLeftViewController];
 }
 - (IBAction)submitButtonShipNow:(id)sender {
-    
+    CommodityViewController *commodityViewController = [[CommodityViewController alloc] initWithNibName:@"CommodityViewController" bundle:nil];
+    [self.navigationController pushViewController:commodityViewController animated:YES];
 }
 @end
