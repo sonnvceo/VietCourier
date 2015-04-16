@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 
 
-@interface CreateShipmentViewController : UIViewController
+@interface CreateShipmentViewController : UIViewController {
+    UIAlertView *dialogView;
+}
 
 @end

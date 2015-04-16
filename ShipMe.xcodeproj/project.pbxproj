@@ -71,7 +71,6 @@
 		301D49791ADE114A0002F815 /* AddressBookDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 301D49741ADE114A0002F815 /* AddressBookDetailViewController.xib */; };
 		301D497A1ADE114A0002F815 /* AddressBookTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 301D49761ADE114A0002F815 /* AddressBookTableCell.m */; };
 		301D497B1ADE114A0002F815 /* AddressBookTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 301D49771ADE114A0002F815 /* AddressBookTableCell.xib */; };
-		301D497C1ADE11680002F815 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A6B1891A7B8E7C009640C9 /* GoogleMaps.framework */; };
 		301D49811ADE19010002F815 /* DefinitionAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 301D49801ADE19010002F815 /* DefinitionAPI.m */; };
 		301D499C1ADE19530002F815 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 301D49841ADE19530002F815 /* AFHTTPRequestOperation.m */; };
 		301D499D1ADE19530002F815 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 301D49861ADE19530002F815 /* AFHTTPRequestOperationManager.m */; };
@@ -89,13 +88,6 @@
 		301D49B61ADE26C00002F815 /* CreateShipmentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 301D49B41ADE26C00002F815 /* CreateShipmentViewController.xib */; };
 		3023D1431A81FE2300BBF8C2 /* CommodityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3023D1411A81FE2300BBF8C2 /* CommodityViewController.m */; };
 		3023D1441A81FE2300BBF8C2 /* CommodityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3023D1421A81FE2300BBF8C2 /* CommodityViewController.xib */; };
-		3023D1581A82356500BBF8C2 /* 011_yes-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 3023D1511A82356500BBF8C2 /* 011_yes-128.png */; };
-		3023D1591A82356500BBF8C2 /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 3023D1521A82356500BBF8C2 /* apple.png */; };
-		3023D15A1A82356500BBF8C2 /* apple2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3023D1531A82356500BBF8C2 /* apple2.png */; };
-		3023D15B1A82356500BBF8C2 /* applications-other.png in Resources */ = {isa = PBXBuildFile; fileRef = 3023D1541A82356500BBF8C2 /* applications-other.png */; };
-		3023D15C1A82356500BBF8C2 /* Clothes.png in Resources */ = {isa = PBXBuildFile; fileRef = 3023D1551A82356500BBF8C2 /* Clothes.png */; };
-		3023D15D1A82356500BBF8C2 /* restaurant.png in Resources */ = {isa = PBXBuildFile; fileRef = 3023D1561A82356500BBF8C2 /* restaurant.png */; };
-		3023D15E1A82356500BBF8C2 /* Wellness_Beauty.png in Resources */ = {isa = PBXBuildFile; fileRef = 3023D1571A82356500BBF8C2 /* Wellness_Beauty.png */; };
 		3023D1651A8236A500BBF8C2 /* ProfileCustomerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3023D1631A8236A500BBF8C2 /* ProfileCustomerViewController.m */; };
 		3023D1661A8236A500BBF8C2 /* ProfileCustomerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3023D1641A8236A500BBF8C2 /* ProfileCustomerViewController.xib */; };
 		3030AB651A7BA0C900F284C9 /* NIDropDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 3030AB641A7BA0C900F284C9 /* NIDropDown.m */; };
@@ -105,10 +97,6 @@
 		307C6BE81A78CB0C003F683E /* ASFTableViewPrivateGlobals.m in Sources */ = {isa = PBXBuildFile; fileRef = 307C6BE21A78CB0C003F683E /* ASFTableViewPrivateGlobals.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		307C6BE91A78CB0C003F683E /* ASFTableViewPublicGlobals.m in Sources */ = {isa = PBXBuildFile; fileRef = 307C6BE41A78CB0C003F683E /* ASFTableViewPublicGlobals.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		3080A03E1ADB5C40003D6270 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3080A03D1ADB5C40003D6270 /* Reachability.m */; };
-		30A6B15B1A7B74DB009640C9 /* CreateShipmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A6B1591A7B74DB009640C9 /* CreateShipmentViewController.m */; };
-		30A6B15C1A7B74DB009640C9 /* CreateShipmentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30A6B15A1A7B74DB009640C9 /* CreateShipmentViewController.xib */; };
-		30A6B1661A7B793A009640C9 /* MapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A6B1641A7B793A009640C9 /* MapView.m */; };
-		30A6B1671A7B793A009640C9 /* MapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30A6B1651A7B793A009640C9 /* MapView.xib */; };
 		30A6B16E1A7B7A25009640C9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A6B16D1A7B7A25009640C9 /* AVFoundation.framework */; };
 		30A6B1701A7B7A30009640C9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A6B16F1A7B7A30009640C9 /* CoreData.framework */; };
 		30A6B1721A7B7A39009640C9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A6B1711A7B7A39009640C9 /* CoreLocation.framework */; };
@@ -120,7 +108,6 @@
 		30A6B17E1A7B7A7D009640C9 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A6B17D1A7B7A7D009640C9 /* OpenGLES.framework */; };
 		30A6B1801A7B7A86009640C9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A6B17F1A7B7A86009640C9 /* QuartzCore.framework */; };
 		30A6B1821A7B7A8E009640C9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A6B1811A7B7A8E009640C9 /* SystemConfiguration.framework */; };
-		30A6B18C1A7B8E98009640C9 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 30A6B18B1A7B8E98009640C9 /* GoogleMaps.bundle */; };
 		30AADC661ADB61220055454D /* AddressBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30AADC641ADB61220055454D /* AddressBookViewController.m */; };
 		30AADC671ADB61220055454D /* AddressBookViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30AADC651ADB61220055454D /* AddressBookViewController.xib */; };
 		30AADC6A1ADB644A0055454D /* AddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 30AADC691ADB644A0055454D /* AddressBook.m */; };
@@ -157,6 +144,13 @@
 		84B663AD1ADBFFA400A36919 /* BalanceTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B663A81ADBFFA400A36919 /* BalanceTableCell.xib */; };
 		84B663AE1ADBFFA400A36919 /* BalanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B663AA1ADBFFA400A36919 /* BalanceViewController.m */; };
 		84B663AF1ADBFFA400A36919 /* BalanceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B663AB1ADBFFA400A36919 /* BalanceViewController.xib */; };
+		84F9EA9D1ADEA8AB005B620E /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F9EA9C1ADEA8AB005B620E /* GoogleMaps.framework */; };
+		84F9EA9F1ADEA989005B620E /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 84F9EA9E1ADEA989005B620E /* GoogleMaps.bundle */; };
+		84F9EAA61ADEAE36005B620E /* clothes.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9EAA11ADEAE36005B620E /* clothes.png */; };
+		84F9EAA71ADEAE36005B620E /* cosmetics.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9EAA21ADEAE36005B620E /* cosmetics.png */; };
+		84F9EAA81ADEAE36005B620E /* food.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9EAA31ADEAE36005B620E /* food.png */; };
+		84F9EAA91ADEAE36005B620E /* other.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9EAA41ADEAE36005B620E /* other.png */; };
+		84F9EAAA1ADEAE36005B620E /* shoe.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9EAA51ADEAE36005B620E /* shoe.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -314,13 +308,6 @@
 		3023D1401A81FE2300BBF8C2 /* CommodityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommodityViewController.h; sourceTree = "<group>"; };
 		3023D1411A81FE2300BBF8C2 /* CommodityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommodityViewController.m; sourceTree = "<group>"; };
 		3023D1421A81FE2300BBF8C2 /* CommodityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommodityViewController.xib; sourceTree = "<group>"; };
-		3023D1511A82356500BBF8C2 /* 011_yes-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "011_yes-128.png"; sourceTree = "<group>"; };
-		3023D1521A82356500BBF8C2 /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
-		3023D1531A82356500BBF8C2 /* apple2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple2.png; sourceTree = "<group>"; };
-		3023D1541A82356500BBF8C2 /* applications-other.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "applications-other.png"; sourceTree = "<group>"; };
-		3023D1551A82356500BBF8C2 /* Clothes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Clothes.png; sourceTree = "<group>"; };
-		3023D1561A82356500BBF8C2 /* restaurant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = restaurant.png; sourceTree = "<group>"; };
-		3023D1571A82356500BBF8C2 /* Wellness_Beauty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wellness_Beauty.png; sourceTree = "<group>"; };
 		3023D1621A8236A500BBF8C2 /* ProfileCustomerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileCustomerViewController.h; sourceTree = "<group>"; };
 		3023D1631A8236A500BBF8C2 /* ProfileCustomerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileCustomerViewController.m; sourceTree = "<group>"; };
 		3023D1641A8236A500BBF8C2 /* ProfileCustomerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileCustomerViewController.xib; sourceTree = "<group>"; };
@@ -338,12 +325,6 @@
 		307C6BE41A78CB0C003F683E /* ASFTableViewPublicGlobals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASFTableViewPublicGlobals.m; sourceTree = "<group>"; };
 		3080A03C1ADB5C40003D6270 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		3080A03D1ADB5C40003D6270 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
-		30A6B1581A7B74DB009640C9 /* CreateShipmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateShipmentViewController.h; sourceTree = "<group>"; };
-		30A6B1591A7B74DB009640C9 /* CreateShipmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateShipmentViewController.m; sourceTree = "<group>"; };
-		30A6B15A1A7B74DB009640C9 /* CreateShipmentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateShipmentViewController.xib; sourceTree = "<group>"; };
-		30A6B1631A7B793A009640C9 /* MapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapView.h; sourceTree = "<group>"; };
-		30A6B1641A7B793A009640C9 /* MapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapView.m; sourceTree = "<group>"; };
-		30A6B1651A7B793A009640C9 /* MapView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapView.xib; sourceTree = "<group>"; };
 		30A6B16D1A7B7A25009640C9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		30A6B16F1A7B7A30009640C9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		30A6B1711A7B7A39009640C9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -355,8 +336,6 @@
 		30A6B17D1A7B7A7D009640C9 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		30A6B17F1A7B7A86009640C9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		30A6B1811A7B7A8E009640C9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		30A6B1891A7B8E7C009640C9 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
-		30A6B18B1A7B8E98009640C9 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
 		30AADC631ADB61220055454D /* AddressBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBookViewController.h; sourceTree = "<group>"; };
 		30AADC641ADB61220055454D /* AddressBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBookViewController.m; sourceTree = "<group>"; };
 		30AADC651ADB61220055454D /* AddressBookViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddressBookViewController.xib; sourceTree = "<group>"; };
@@ -412,6 +391,13 @@
 		84B663A91ADBFFA400A36919 /* BalanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BalanceViewController.h; sourceTree = "<group>"; };
 		84B663AA1ADBFFA400A36919 /* BalanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BalanceViewController.m; sourceTree = "<group>"; };
 		84B663AB1ADBFFA400A36919 /* BalanceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BalanceViewController.xib; sourceTree = "<group>"; };
+		84F9EA9C1ADEA8AB005B620E /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		84F9EA9E1ADEA989005B620E /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		84F9EAA11ADEAE36005B620E /* clothes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clothes.png; sourceTree = "<group>"; };
+		84F9EAA21ADEAE36005B620E /* cosmetics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cosmetics.png; sourceTree = "<group>"; };
+		84F9EAA31ADEAE36005B620E /* food.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = food.png; sourceTree = "<group>"; };
+		84F9EAA41ADEAE36005B620E /* other.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = other.png; sourceTree = "<group>"; };
+		84F9EAA51ADEAE36005B620E /* shoe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shoe.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -419,8 +405,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F9EA9D1ADEA8AB005B620E /* GoogleMaps.framework in Frameworks */,
 				30A6B1721A7B7A39009640C9 /* CoreLocation.framework in Frameworks */,
-				301D497C1ADE11680002F815 /* GoogleMaps.framework in Frameworks */,
 				30A6B1821A7B7A8E009640C9 /* SystemConfiguration.framework in Frameworks */,
 				30A6B1801A7B7A86009640C9 /* QuartzCore.framework in Frameworks */,
 				30A6B17E1A7B7A7D009640C9 /* OpenGLES.framework in Frameworks */,
@@ -706,20 +692,6 @@
 			path = Commodity;
 			sourceTree = "<group>";
 		};
-		3023D1501A82356500BBF8C2 /* images */ = {
-			isa = PBXGroup;
-			children = (
-				3023D1511A82356500BBF8C2 /* 011_yes-128.png */,
-				3023D1521A82356500BBF8C2 /* apple.png */,
-				3023D1531A82356500BBF8C2 /* apple2.png */,
-				3023D1541A82356500BBF8C2 /* applications-other.png */,
-				3023D1551A82356500BBF8C2 /* Clothes.png */,
-				3023D1561A82356500BBF8C2 /* restaurant.png */,
-				3023D1571A82356500BBF8C2 /* Wellness_Beauty.png */,
-			);
-			path = images;
-			sourceTree = "<group>";
-		};
 		3023D1611A82367700BBF8C2 /* ProfileCustomer */ = {
 			isa = PBXGroup;
 			children = (
@@ -763,28 +735,6 @@
 				3080A03D1ADB5C40003D6270 /* Reachability.m */,
 			);
 			path = Reachability;
-			sourceTree = "<group>";
-		};
-		30A6B1571A7B74BC009640C9 /* CreateShipment */ = {
-			isa = PBXGroup;
-			children = (
-				30A6B1581A7B74DB009640C9 /* CreateShipmentViewController.h */,
-				30A6B1591A7B74DB009640C9 /* CreateShipmentViewController.m */,
-				30A6B15A1A7B74DB009640C9 /* CreateShipmentViewController.xib */,
-				30A6B1631A7B793A009640C9 /* MapView.h */,
-				30A6B1641A7B793A009640C9 /* MapView.m */,
-				30A6B1651A7B793A009640C9 /* MapView.xib */,
-			);
-			path = CreateShipment;
-			sourceTree = "<group>";
-		};
-		30A6B1681A7B79D8009640C9 /* GoogleMaps framework */ = {
-			isa = PBXGroup;
-			children = (
-				30A6B18B1A7B8E98009640C9 /* GoogleMaps.bundle */,
-				30A6B1891A7B8E7C009640C9 /* GoogleMaps.framework */,
-			);
-			path = "GoogleMaps framework";
 			sourceTree = "<group>";
 		};
 		30AADC621ADB60F70055454D /* AddresBook */ = {
@@ -908,10 +858,10 @@
 		84728BE51A6FEF0300DECEB1 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				84F9EA9B1ADEA8AB005B620E /* GoogleMaps framework */,
 				301D49A71ADE196C0002F815 /* NetworkRequestManager */,
 				3080A03B1ADB5C40003D6270 /* Reachability */,
 				3030AB621A7BA0BE00F284C9 /* NIDropDown */,
-				30A6B1681A7B79D8009640C9 /* GoogleMaps framework */,
 				301BF9B81A7A50C40086FA83 /* Libraries */,
 				307C6BDA1A78CB0C003F683E /* ASFTableView */,
 			);
@@ -921,8 +871,8 @@
 		84728C281A6FEF6600DECEB1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				84F9EAA01ADEAE2D005B620E /* images */,
 				30AADC6B1ADB7A760055454D /* en.lproj */,
-				3023D1501A82356500BBF8C2 /* images */,
 				301BFA421A7A51DC0086FA83 /* MWPhotoBrowser.bundle */,
 				301BFA431A7A51DC0086FA83 /* Photos */,
 				84728C2A1A6FF00000DECEB1 /* Images.xcassets */,
@@ -943,7 +893,6 @@
 				84A594511A825C1D00ED5AC3 /* Lading */,
 				3023D1611A82367700BBF8C2 /* ProfileCustomer */,
 				3023D13F1A81FDCE00BBF8C2 /* Commodity */,
-				30A6B1571A7B74BC009640C9 /* CreateShipment */,
 				84728C311A6FF6E700DECEB1 /* Login */,
 				84728C4A1A6FF8EF00DECEB1 /* SignUp */,
 				84728C2E1A6FF02F00DECEB1 /* AppDelegate.h */,
@@ -1036,6 +985,27 @@
 			path = Balance;
 			sourceTree = "<group>";
 		};
+		84F9EA9B1ADEA8AB005B620E /* GoogleMaps framework */ = {
+			isa = PBXGroup;
+			children = (
+				84F9EA9E1ADEA989005B620E /* GoogleMaps.bundle */,
+				84F9EA9C1ADEA8AB005B620E /* GoogleMaps.framework */,
+			);
+			path = "GoogleMaps framework";
+			sourceTree = "<group>";
+		};
+		84F9EAA01ADEAE2D005B620E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				84F9EAA11ADEAE36005B620E /* clothes.png */,
+				84F9EAA21ADEAE36005B620E /* cosmetics.png */,
+				84F9EAA31ADEAE36005B620E /* food.png */,
+				84F9EAA41ADEAE36005B620E /* other.png */,
+				84F9EAA51ADEAE36005B620E /* shoe.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1118,23 +1088,18 @@
 			files = (
 				84B663AF1ADBFFA400A36919 /* BalanceViewController.xib in Resources */,
 				301BFA641A7A51DC0086FA83 /* photo8t.jpg in Resources */,
-				3023D15D1A82356500BBF8C2 /* restaurant.png in Resources */,
 				301BFA5D1A7A51DC0086FA83 /* photo5.jpg in Resources */,
-				30A6B15C1A7B74DB009640C9 /* CreateShipmentViewController.xib in Resources */,
-				3023D15E1A82356500BBF8C2 /* Wellness_Beauty.png in Resources */,
 				30AADC6E1ADB7A760055454D /* Localizable.strings in Resources */,
 				840210D61ADAB3D200CA590A /* MainViewController.xib in Resources */,
-				3023D15A1A82356500BBF8C2 /* apple2.png in Resources */,
 				84728C2D1A6FF00000DECEB1 /* LaunchScreen.xib in Resources */,
+				84F9EA9F1ADEA989005B620E /* GoogleMaps.bundle in Resources */,
 				30AADC671ADB61220055454D /* AddressBookViewController.xib in Resources */,
 				8475C2551ADD5F540040D0B0 /* CourierProfileViewController.xib in Resources */,
 				301BFA5F1A7A51DC0086FA83 /* photo6.jpg in Resources */,
 				301BFA5E1A7A51DC0086FA83 /* photo5t.jpg in Resources */,
 				301BFA621A7A51DC0086FA83 /* photo7t.jpg in Resources */,
-				30A6B18C1A7B8E98009640C9 /* GoogleMaps.bundle in Resources */,
 				84A5945B1A825C1D00ED5AC3 /* LadingViewController.xib in Resources */,
 				845E45661AA15D4500A8BB9E /* LoginViewController.xib in Resources */,
-				3023D1581A82356500BBF8C2 /* 011_yes-128.png in Resources */,
 				301BFA551A7A51DC0086FA83 /* photo1.jpg in Resources */,
 				301D49791ADE114A0002F815 /* AddressBookDetailViewController.xib in Resources */,
 				84728C2C1A6FF00000DECEB1 /* Images.xcassets in Resources */,
@@ -1143,26 +1108,27 @@
 				84728C4F1A6FF8EF00DECEB1 /* SignUpViewController.xib in Resources */,
 				301BFA591A7A51DC0086FA83 /* photo3.jpg in Resources */,
 				84B663AD1ADBFFA400A36919 /* BalanceTableCell.xib in Resources */,
-				3023D15C1A82356500BBF8C2 /* Clothes.png in Resources */,
 				301BFA611A7A51DC0086FA83 /* photo7.jpg in Resources */,
+				84F9EAAA1ADEAE36005B620E /* shoe.png in Resources */,
 				3023D1441A81FE2300BBF8C2 /* CommodityViewController.xib in Resources */,
 				301BFA5A1A7A51DC0086FA83 /* photo3t.jpg in Resources */,
 				301BFA581A7A51DC0086FA83 /* photo2t.jpg in Resources */,
-				3023D15B1A82356500BBF8C2 /* applications-other.png in Resources */,
 				301BFA631A7A51DC0086FA83 /* photo8.jpg in Resources */,
 				301BFA601A7A51DC0086FA83 /* photo6t.jpg in Resources */,
+				84F9EAA81ADEAE36005B620E /* food.png in Resources */,
 				301D49B61ADE26C00002F815 /* CreateShipmentViewController.xib in Resources */,
+				84F9EAA61ADEAE36005B620E /* clothes.png in Resources */,
 				84A594591A825C1D00ED5AC3 /* LadingTableCell.xib in Resources */,
 				301D497B1ADE114A0002F815 /* AddressBookTableCell.xib in Resources */,
-				30A6B1671A7B793A009640C9 /* MapView.xib in Resources */,
 				30AADC751ADBBF6B0055454D /* MenuTableViewController.xib in Resources */,
+				84F9EAA91ADEAE36005B620E /* other.png in Resources */,
 				301BFA5C1A7A51DC0086FA83 /* photo4t.jpg in Resources */,
+				84F9EAA71ADEAE36005B620E /* cosmetics.png in Resources */,
 				3023D1661A8236A500BBF8C2 /* ProfileCustomerViewController.xib in Resources */,
 				301BFA541A7A51DC0086FA83 /* MWPhotoBrowser.bundle in Resources */,
 				301BFA561A7A51DC0086FA83 /* photo1t.jpg in Resources */,
 				301BFA571A7A51DC0086FA83 /* photo2.jpg in Resources */,
 				30AADC7A1ADBC33B0055454D /* MenuTableCell.xib in Resources */,
-				3023D1591A82356500BBF8C2 /* apple.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1221,7 +1187,6 @@
 				301BFA361A7A50C40086FA83 /* UIImage+MultiFormat.m in Sources */,
 				3023D1651A8236A500BBF8C2 /* ProfileCustomerViewController.m in Sources */,
 				307C6BE91A78CB0C003F683E /* ASFTableViewPublicGlobals.m in Sources */,
-				30A6B1661A7B793A009640C9 /* MapView.m in Sources */,
 				301BFA341A7A50C40086FA83 /* UIButton+WebCache.m in Sources */,
 				3080A03E1ADB5C40003D6270 /* Reachability.m in Sources */,
 				301BFA1E1A7A50C40086FA83 /* PSTCollectionViewCell.m in Sources */,
@@ -1257,7 +1222,6 @@
 				301D499C1ADE19530002F815 /* AFHTTPRequestOperation.m in Sources */,
 				301BFA181A7A50C40086FA83 /* MWCaptionView.m in Sources */,
 				301BFA3D1A7A50EA0086FA83 /* Menu.m in Sources */,
-				30A6B15B1A7B74DB009640C9 /* CreateShipmentViewController.m in Sources */,
 				301BFA2A1A7A50C40086FA83 /* README.md in Sources */,
 				3030AB651A7BA0C900F284C9 /* NIDropDown.m in Sources */,
 				301BFA2D1A7A50C40086FA83 /* SDImageCache.m in Sources */,
@@ -1430,6 +1394,8 @@
 					framework,
 					"$(PROJECT_DIR)/VietCourier/Utilities/GoogleMaps",
 					framework,
+					"$(PROJECT_DIR)/VietCourier/Utilities/GoogleMaps",
+					framework,
 				);
 				GCC_PREFIX_HEADER = "VietCourier/ShipMe-Prefix.pch";
 				INFOPLIST_FILE = VietCourier/Info.plist;
@@ -1451,6 +1417,8 @@
 					"$(PROJECT_DIR)/VietCourier/Utilities/GoogleMaps",
 					framework,
 					"$(PROJECT_DIR)/VietCourier/Resources",
+					"$(PROJECT_DIR)/VietCourier/Utilities/GoogleMaps",
+					framework,
 					"$(PROJECT_DIR)/VietCourier/Utilities/GoogleMaps",
 					framework,
 					"$(PROJECT_DIR)/VietCourier/Utilities/GoogleMaps",
